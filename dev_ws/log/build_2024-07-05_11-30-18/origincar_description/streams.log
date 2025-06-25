@@ -1,0 +1,36 @@
+[4.771s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/build/origincar_description -- -j4 -l4
+[5.257s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/build/origincar_description -- -j4 -l4
+[5.629s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --install /root/dev_ws/build/origincar_description
+[5.764s] -- Install configuration: ""
+[5.767s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch
+[5.768s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[5.770s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch
+[5.771s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch.py
+[5.773s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf
+[5.776s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[5.778s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[5.784s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz
+[5.792s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/README
+[5.793s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/display.rviz
+[5.795s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes
+[5.796s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[5.797s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[5.806s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[5.807s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[5.808s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[5.815s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[5.816s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[5.817s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[5.819s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[5.823s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.sh
+[5.824s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.dsv
+[5.825s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.bash
+[5.826s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.sh
+[5.828s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.zsh
+[5.829s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.dsv
+[5.838s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/package.dsv
+[5.840s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[5.841s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[5.842s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[5.843s] -- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/package.xml
+[5.853s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --install /root/dev_ws/build/origincar_description

@@ -1,0 +1,29 @@
+[8.674s] Invoking command in '/root/testtest': PYTHONPATH=/root/testtest/build/testtest/prefix_override:/root/testtest/install/testtest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/testtest build --build-base /root/testtest/build/testtest/build install --record /root/testtest/build/testtest/install.log --install-scripts $base/lib/testtest --single-version-externally-managed
+[10.178s] running egg_info
+[10.182s] writing build/testtest/testtest.egg-info/PKG-INFO
+[10.183s] writing dependency_links to build/testtest/testtest.egg-info/dependency_links.txt
+[10.186s] writing entry points to build/testtest/testtest.egg-info/entry_points.txt
+[10.187s] writing requirements to build/testtest/testtest.egg-info/requires.txt
+[10.187s] writing top-level names to build/testtest/testtest.egg-info/top_level.txt
+[10.475s] reading manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+[10.482s] writing manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+[10.482s] running build
+[10.483s] running build_py
+[10.484s] copying testtest/test_pub.py -> /root/testtest/build/testtest/build/lib/testtest
+[10.485s] copying testtest/test_sub.py -> /root/testtest/build/testtest/build/lib/testtest
+[10.487s] running install
+[10.492s] running install_lib
+[10.498s] copying /root/testtest/build/testtest/build/lib/testtest/test_pub.py -> /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+[10.499s] copying /root/testtest/build/testtest/build/lib/testtest/test_sub.py -> /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+[10.503s] byte-compiling /root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_pub.py to test_pub.cpython-38.pyc
+[10.514s] byte-compiling /root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_sub.py to test_sub.cpython-38.pyc
+[10.517s] running install_data
+[10.520s] running install_egg_info
+[10.531s] removing '/root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info' (and everything under it)
+[10.532s] Copying build/testtest/testtest.egg-info to /root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info
+[10.537s] running install_scripts
+[10.655s] Installing helloworld123 script to /root/testtest/install/testtest/lib/testtest
+[10.657s] Installing pubtest script to /root/testtest/install/testtest/lib/testtest
+[10.658s] Installing subtest script to /root/testtest/install/testtest/lib/testtest
+[10.661s] writing list of installed files to '/root/testtest/build/testtest/install.log'
+[10.829s] Invoked command in '/root/testtest' returned '0': PYTHONPATH=/root/testtest/build/testtest/prefix_override:/root/testtest/install/testtest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/testtest build --build-base /root/testtest/build/testtest/build install --record /root/testtest/build/testtest/install.log --install-scripts $base/lib/testtest --single-version-externally-managed

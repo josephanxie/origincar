@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.001859] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.002523] (-) JobUnselected: {'identifier': 'line_follower'}
+[0.003920] (-) JobUnselected: {'identifier': 'line_follower_model'}
+[0.005259] (-) JobUnselected: {'identifier': 'origincar_base'}
+[0.006580] (-) JobUnselected: {'identifier': 'origincar_bringup'}
+[0.007029] (-) JobUnselected: {'identifier': 'origincar_description'}
+[0.007327] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.007673] (-) JobUnselected: {'identifier': 'serial'}
+[0.008395] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.008939] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.009276] (controller) JobStarted: {'identifier': 'controller'}
+[0.098401] (-) TimerEvent: {}
+[0.199438] (-) TimerEvent: {}
+[0.300720] (-) TimerEvent: {}
+[0.401974] (-) TimerEvent: {}
+[0.502966] (-) TimerEvent: {}
+[0.604200] (-) TimerEvent: {}
+[0.705263] (-) TimerEvent: {}
+[0.806366] (-) TimerEvent: {}
+[0.907278] (-) TimerEvent: {}
+[1.008395] (-) TimerEvent: {}
+[1.109564] (-) TimerEvent: {}
+[1.210537] (-) TimerEvent: {}
+[1.312644] (-) TimerEvent: {}
+[1.415079] (-) TimerEvent: {}
+[1.516257] (-) TimerEvent: {}
+[1.617313] (-) TimerEvent: {}
+[1.718344] (-) TimerEvent: {}
+[1.819292] (-) TimerEvent: {}
+[1.920272] (-) TimerEvent: {}
+[2.021299] (-) TimerEvent: {}
+[2.122315] (-) TimerEvent: {}
+[2.223402] (-) TimerEvent: {}
+[2.324535] (-) TimerEvent: {}
+[2.425689] (-) TimerEvent: {}
+[2.526606] (-) TimerEvent: {}
+[2.627617] (-) TimerEvent: {}
+[2.728587] (-) TimerEvent: {}
+[2.829550] (-) TimerEvent: {}
+[2.930655] (-) TimerEvent: {}
+[3.032071] (-) TimerEvent: {}
+[3.132991] (-) TimerEvent: {}
+[3.233935] (-) TimerEvent: {}
+[3.334846] (-) TimerEvent: {}
+[3.435789] (-) TimerEvent: {}
+[3.536714] (-) TimerEvent: {}
+[3.637725] (-) TimerEvent: {}
+[3.738681] (-) TimerEvent: {}
+[3.839615] (-) TimerEvent: {}
+[3.940535] (-) TimerEvent: {}
+[4.041510] (-) TimerEvent: {}
+[4.142402] (-) TimerEvent: {}
+[4.243337] (-) TimerEvent: {}
+[4.344528] (-) TimerEvent: {}
+[4.446680] (-) TimerEvent: {}
+[4.548580] (-) TimerEvent: {}
+[4.649733] (-) TimerEvent: {}
+[4.750862] (-) TimerEvent: {}
+[4.851803] (-) TimerEvent: {}
+[4.952784] (-) TimerEvent: {}
+[5.053808] (-) TimerEvent: {}
+[5.155051] (-) TimerEvent: {}
+[5.256198] (-) TimerEvent: {}
+[5.357480] (-) TimerEvent: {}
+[5.458760] (-) TimerEvent: {}
+[5.538928] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/root/dev_ws/build/controller/build', 'install', '--record', '/root/dev_ws/build/controller/install.log', '--install-scripts', '$base/lib/controller', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/dev_ws/src/controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-0/default,4210,0', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.1.22 2653 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root/dev_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLCON_PREFIX_PATH': '/root/dev_ws/install:/opt/tros', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/linefollower:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/dev_ws/build/controller', 'SSH_CONNECTION': '192.168.1.22 2653 192.168.1.10 22', 'PYTHONPATH': '/root/dev_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/controller/lib/python3.8/site-packages:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/linefollower/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros'}, 'shell': False}
+[5.559223] (-) TimerEvent: {}
+[5.660547] (-) TimerEvent: {}
+[5.762770] (-) TimerEvent: {}
+[5.863779] (-) TimerEvent: {}
+[5.965123] (-) TimerEvent: {}
+[6.066239] (-) TimerEvent: {}
+[6.167290] (-) TimerEvent: {}
+[6.268573] (-) TimerEvent: {}
+[6.369530] (-) TimerEvent: {}
+[6.470459] (-) TimerEvent: {}
+[6.571440] (-) TimerEvent: {}
+[6.672408] (-) TimerEvent: {}
+[6.773447] (-) TimerEvent: {}
+[6.874521] (-) TimerEvent: {}
+[6.975451] (-) TimerEvent: {}
+[7.076364] (-) TimerEvent: {}
+[7.177382] (-) TimerEvent: {}
+[7.278664] (-) TimerEvent: {}
+[7.371144] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.375732] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[7.377321] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[7.378588] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[7.379746] (-) TimerEvent: {}
+[7.381365] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[7.382505] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[7.479969] (-) TimerEvent: {}
+[7.580934] (-) TimerEvent: {}
+[7.681902] (-) TimerEvent: {}
+[7.702127] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[7.708156] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[7.710437] (controller) StdoutLine: {'line': b'running build\n'}
+[7.713742] (controller) StdoutLine: {'line': b'running build_py\n'}
+[7.715056] (controller) StdoutLine: {'line': b'running install\n'}
+[7.717611] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.727545] (controller) StdoutLine: {'line': b'running install_data\n'}
+[7.729067] (controller) StdoutLine: {'line': b'copying package.xml -> /root/dev_ws/install/controller/share/controller\n'}
+[7.730313] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.741197] (controller) StdoutLine: {'line': b"removing '/root/dev_ws/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.742918] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /root/dev_ws/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info\n'}
+[7.749277] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.782116] (-) TimerEvent: {}
+[7.877041] (controller) StdoutLine: {'line': b'Installing controller script to /root/dev_ws/install/controller/lib/controller\n'}
+[7.879460] (controller) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/build/controller/install.log'\n"}
+[7.882371] (-) TimerEvent: {}
+[7.983618] (-) TimerEvent: {}
+[8.058205] (controller) CommandEnded: {'returncode': 0}
+[8.084780] (-) TimerEvent: {}
+[8.136340] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[8.141088] (-) EventReactorShutdown: {}

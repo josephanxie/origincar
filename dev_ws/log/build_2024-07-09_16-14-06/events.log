@@ -1,0 +1,1127 @@
+[0.000000] (-) TimerEvent: {}
+[0.001756] (ackermann_msgs) JobQueued: {'identifier': 'ackermann_msgs', 'dependencies': OrderedDict()}
+[0.002438] (line_follower) JobQueued: {'identifier': 'line_follower', 'dependencies': OrderedDict()}
+[0.004492] (line_follower_model) JobQueued: {'identifier': 'line_follower_model', 'dependencies': OrderedDict()}
+[0.005621] (origincar_bringup) JobQueued: {'identifier': 'origincar_bringup', 'dependencies': OrderedDict()}
+[0.006167] (origincar_description) JobQueued: {'identifier': 'origincar_description', 'dependencies': OrderedDict()}
+[0.006373] (origincar_msg) JobQueued: {'identifier': 'origincar_msg', 'dependencies': OrderedDict()}
+[0.006530] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.006679] (tf2_tools) JobQueued: {'identifier': 'tf2_tools', 'dependencies': OrderedDict()}
+[0.006827] (origincar_base) JobQueued: {'identifier': 'origincar_base', 'dependencies': OrderedDict([('ackermann_msgs', '/root/dev_ws/install/ackermann_msgs'), ('origincar_description', '/root/dev_ws/install/origincar_description'), ('origincar_msg', '/root/dev_ws/install/origincar_msg'), ('serial', '/root/dev_ws/install/serial')])}
+[0.007011] (ackermann_msgs) JobStarted: {'identifier': 'ackermann_msgs'}
+[0.098700] (-) TimerEvent: {}
+[0.202524] (-) TimerEvent: {}
+[0.303754] (-) TimerEvent: {}
+[0.406252] (-) TimerEvent: {}
+[0.509425] (-) TimerEvent: {}
+[0.615675] (-) TimerEvent: {}
+[0.718665] (-) TimerEvent: {}
+[0.821763] (-) TimerEvent: {}
+[0.923918] (-) TimerEvent: {}
+[1.025992] (-) TimerEvent: {}
+[1.129587] (-) TimerEvent: {}
+[1.232746] (-) TimerEvent: {}
+[1.334573] (-) TimerEvent: {}
+[1.439923] (-) TimerEvent: {}
+[1.542617] (-) TimerEvent: {}
+[1.645663] (-) TimerEvent: {}
+[1.749206] (-) TimerEvent: {}
+[1.852750] (-) TimerEvent: {}
+[1.873421] (origincar_description) JobStarted: {'identifier': 'origincar_description'}
+[1.953768] (-) TimerEvent: {}
+[2.060019] (-) TimerEvent: {}
+[2.166591] (-) TimerEvent: {}
+[2.270295] (-) TimerEvent: {}
+[2.373174] (-) TimerEvent: {}
+[2.475881] (-) TimerEvent: {}
+[2.577803] (-) TimerEvent: {}
+[2.681290] (-) TimerEvent: {}
+[2.785178] (-) TimerEvent: {}
+[2.892989] (-) TimerEvent: {}
+[2.996176] (-) TimerEvent: {}
+[3.100481] (-) TimerEvent: {}
+[3.202977] (-) TimerEvent: {}
+[3.308194] (-) TimerEvent: {}
+[3.411160] (-) TimerEvent: {}
+[3.513094] (-) TimerEvent: {}
+[3.612302] (origincar_msg) JobStarted: {'identifier': 'origincar_msg'}
+[3.614739] (-) TimerEvent: {}
+[3.716412] (-) TimerEvent: {}
+[3.822401] (-) TimerEvent: {}
+[3.928775] (-) TimerEvent: {}
+[4.033145] (-) TimerEvent: {}
+[4.137136] (-) TimerEvent: {}
+[4.246830] (-) TimerEvent: {}
+[4.351381] (-) TimerEvent: {}
+[4.455628] (-) TimerEvent: {}
+[4.559004] (-) TimerEvent: {}
+[4.663054] (-) TimerEvent: {}
+[4.772246] (-) TimerEvent: {}
+[4.875863] (-) TimerEvent: {}
+[4.979427] (-) TimerEvent: {}
+[5.081338] (-) TimerEvent: {}
+[5.185455] (-) TimerEvent: {}
+[5.288444] (-) TimerEvent: {}
+[5.394700] (-) TimerEvent: {}
+[5.484096] (serial) JobStarted: {'identifier': 'serial'}
+[5.498547] (-) TimerEvent: {}
+[5.601206] (-) TimerEvent: {}
+[5.703161] (-) TimerEvent: {}
+[5.806043] (-) TimerEvent: {}
+[5.910985] (-) TimerEvent: {}
+[6.013773] (-) TimerEvent: {}
+[6.119326] (-) TimerEvent: {}
+[6.224435] (-) TimerEvent: {}
+[6.327340] (-) TimerEvent: {}
+[6.432208] (-) TimerEvent: {}
+[6.537802] (-) TimerEvent: {}
+[6.643543] (-) TimerEvent: {}
+[6.747218] (-) TimerEvent: {}
+[6.851970] (-) TimerEvent: {}
+[6.954947] (-) TimerEvent: {}
+[7.059997] (-) TimerEvent: {}
+[7.170455] (-) TimerEvent: {}
+[7.272538] (-) TimerEvent: {}
+[7.349244] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'cmake'}
+[7.354462] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'build'}
+[7.359939] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/ackermann_msgs', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/ackermann_msgs'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[7.376983] (-) TimerEvent: {}
+[7.387854] (origincar_description) JobProgress: {'identifier': 'origincar_description', 'progress': 'cmake'}
+[7.392725] (origincar_description) JobProgress: {'identifier': 'origincar_description', 'progress': 'build'}
+[7.394635] (origincar_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/origincar_description', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/origincar_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_description'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[7.420745] (origincar_msg) JobProgress: {'identifier': 'origincar_msg', 'progress': 'cmake'}
+[7.427354] (origincar_msg) JobProgress: {'identifier': 'origincar_msg', 'progress': 'build'}
+[7.429929] (origincar_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/origincar_msg', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/origincar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_msg'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[7.465154] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[7.470725] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[7.472930] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/serial'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[7.479606] (-) TimerEvent: {}
+[7.580808] (-) TimerEvent: {}
+[7.685909] (origincar_description) CommandEnded: {'returncode': 0}
+[7.691790] (-) TimerEvent: {}
+[7.801648] (-) TimerEvent: {}
+[7.835724] (ackermann_msgs) StdoutLine: {'line': b'[ 10%] Built target ackermann_msgs__rosidl_generator_c\n'}
+[7.872020] (ackermann_msgs) StdoutLine: {'line': b'[ 12%] Built target ackermann_msgs__cpp\n'}
+[7.901977] (-) TimerEvent: {}
+[7.956984] (origincar_description) JobProgress: {'identifier': 'origincar_description', 'progress': 'install'}
+[7.976116] (origincar_msg) StdoutLine: {'line': b'[ 10%] Built target origincar_msg__rosidl_generator_c\n'}
+[7.979441] (origincar_msg) StdoutLine: {'line': b'[ 12%] Built target origincar_msg__cpp\n'}
+[8.002271] (-) TimerEvent: {}
+[8.098528] (origincar_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/origincar_description'], 'cwd': '/root/dev_ws/build/origincar_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_description'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[8.109907] (-) TimerEvent: {}
+[8.185824] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[8.209886] (-) TimerEvent: {}
+[8.236857] (origincar_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.238783] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch\n'}
+[8.240279] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/gazebo.launch\n'}
+[8.241324] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch\n'}
+[8.242206] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch.py\n'}
+[8.243138] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf\n'}
+[8.244457] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.urdf\n'}
+[8.245520] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.xacro\n'}
+[8.246477] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz\n'}
+[8.247462] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/README\n'}
+[8.256700] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/display.rviz\n'}
+[8.257766] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes\n'}
+[8.258634] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL\n'}
+[8.266976] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL\n'}
+[8.269915] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL\n'}
+[8.270839] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/base_link.STL\n'}
+[8.271923] (ackermann_msgs) StdoutLine: {'line': b'[ 23%] Built target ackermann_msgs__rosidl_typesupport_introspection_c\n'}
+[8.273008] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL\n'}
+[8.273844] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description\n'}
+[8.274726] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description\n'}
+[8.295735] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh\n'}
+[8.296755] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv\n'}
+[8.297721] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.sh\n'}
+[8.298646] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.dsv\n'}
+[8.309254] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.bash\n'}
+[8.310592] (-) TimerEvent: {}
+[8.316349] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.sh\n'}
+[8.317442] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.zsh\n'}
+[8.318537] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.dsv\n'}
+[8.327744] (origincar_description) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/package.dsv\n'}
+[8.329048] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/packages/origincar_description\n'}
+[8.331857] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake\n'}
+[8.339097] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake\n'}
+[8.340301] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_description/share/origincar_description/package.xml\n'}
+[8.341173] (origincar_description) CommandEnded: {'returncode': 0}
+[8.343971] (origincar_msg) StdoutLine: {'line': b'[ 23%] Built target origincar_msg__rosidl_typesupport_c\n'}
+[8.348501] (origincar_msg) StdoutLine: {'line': b'[ 33%] Built target origincar_msg__rosidl_typesupport_introspection_c\n'}
+[8.359212] (ackermann_msgs) StdoutLine: {'line': b'[ 33%] Built target ackermann_msgs__rosidl_typesupport_c\n'}
+[8.367084] (ackermann_msgs) StdoutLine: {'line': b'[ 43%] Built target ackermann_msgs__rosidl_typesupport_cpp\n'}
+[8.420619] (-) TimerEvent: {}
+[8.423062] (origincar_msg) StdoutLine: {'line': b'[ 43%] Built target origincar_msg__rosidl_typesupport_cpp\n'}
+[8.488187] (origincar_msg) StdoutLine: {'line': b'[ 53%] Built target origincar_msg__rosidl_typesupport_introspection_cpp\n'}
+[8.491178] (origincar_msg) StdoutLine: {'line': b'[ 64%] Built target origincar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[8.504200] (ackermann_msgs) StdoutLine: {'line': b'[ 53%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp\n'}
+[8.520936] (-) TimerEvent: {}
+[8.607938] (ackermann_msgs) StdoutLine: {'line': b'[ 64%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[8.621303] (-) TimerEvent: {}
+[8.690757] (origincar_msg) StdoutLine: {'line': b'[ 74%] Built target origincar_msg__rosidl_typesupport_fastrtps_c\n'}
+[8.722141] (-) TimerEvent: {}
+[8.742118] (ackermann_msgs) StdoutLine: {'line': b'[ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.820504] (origincar_msg) StdoutLine: {'line': b'[ 74%] Built target origincar_msg\n'}
+[8.827540] (-) TimerEvent: {}
+[8.868344] (ackermann_msgs) StdoutLine: {'line': b'[ 74%] Built target ackermann_msgs\n'}
+[8.927924] (-) TimerEvent: {}
+[8.945536] (origincar_msg) StdoutLine: {'line': b'[ 76%] Built target origincar_msg__py\n'}
+[9.000960] (ackermann_msgs) StdoutLine: {'line': b'[ 76%] Built target ackermann_msgs__py\n'}
+[9.029195] (-) TimerEvent: {}
+[9.125839] (origincar_msg) StdoutLine: {'line': b'[ 84%] Built target origincar_msg__python\n'}
+[9.129718] (-) TimerEvent: {}
+[9.226570] (ackermann_msgs) StdoutLine: {'line': b'[ 84%] Built target ackermann_msgs__python\n'}
+[9.229982] (-) TimerEvent: {}
+[9.332867] (-) TimerEvent: {}
+[9.440068] (-) TimerEvent: {}
+[9.478824] (origincar_msg) StdoutLine: {'line': b'[ 89%] Built target origincar_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[9.499615] (origincar_msg) StdoutLine: {'line': b'[ 94%] Built target origincar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.534365] (origincar_msg) StdoutLine: {'line': b'[100%] Built target origincar_msg__rosidl_typesupport_c__pyext\n'}
+[9.541348] (-) TimerEvent: {}
+[9.599231] (ackermann_msgs) StdoutLine: {'line': b'[ 89%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.629006] (ackermann_msgs) StdoutLine: {'line': b'[ 94%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.630490] (ackermann_msgs) StdoutLine: {'line': b'[100%] Built target ackermann_msgs__rosidl_typesupport_c__pyext\n'}
+[9.641787] (-) TimerEvent: {}
+[9.743933] (-) TimerEvent: {}
+[9.851202] (-) TimerEvent: {}
+[9.950028] (serial) CommandEnded: {'returncode': 0}
+[9.953354] (-) TimerEvent: {}
+[9.984731] (origincar_msg) CommandEnded: {'returncode': 0}
+[10.028258] (ackermann_msgs) CommandEnded: {'returncode': 0}
+[10.055554] (-) TimerEvent: {}
+[10.162767] (-) TimerEvent: {}
+[10.267046] (-) TimerEvent: {}
+[10.421440] (-) TimerEvent: {}
+[10.526472] (-) TimerEvent: {}
+[10.632006] (-) TimerEvent: {}
+[10.734818] (-) TimerEvent: {}
+[10.838385] (-) TimerEvent: {}
+[10.940593] (-) TimerEvent: {}
+[11.043683] (-) TimerEvent: {}
+[11.145261] (-) TimerEvent: {}
+[11.248819] (-) TimerEvent: {}
+[11.353889] (-) TimerEvent: {}
+[11.455587] (-) TimerEvent: {}
+[11.558870] (-) TimerEvent: {}
+[11.663430] (-) TimerEvent: {}
+[11.718027] (origincar_description) JobEnded: {'identifier': 'origincar_description', 'rc': 0}
+[11.724078] (line_follower) JobStarted: {'identifier': 'line_follower'}
+[11.764391] (-) TimerEvent: {}
+[11.870400] (-) TimerEvent: {}
+[11.973720] (-) TimerEvent: {}
+[12.077736] (-) TimerEvent: {}
+[12.180966] (-) TimerEvent: {}
+[12.288034] (-) TimerEvent: {}
+[12.396457] (-) TimerEvent: {}
+[12.498282] (-) TimerEvent: {}
+[12.601560] (-) TimerEvent: {}
+[12.706772] (-) TimerEvent: {}
+[12.811757] (-) TimerEvent: {}
+[12.914982] (-) TimerEvent: {}
+[13.016901] (-) TimerEvent: {}
+[13.121043] (-) TimerEvent: {}
+[13.222806] (-) TimerEvent: {}
+[13.325508] (-) TimerEvent: {}
+[13.427487] (-) TimerEvent: {}
+[13.530563] (-) TimerEvent: {}
+[13.575791] (origincar_msg) JobProgress: {'identifier': 'origincar_msg', 'progress': 'install'}
+[13.577949] (origincar_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/origincar_msg'], 'cwd': '/root/dev_ws/build/origincar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_msg'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[13.592982] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[13.595103] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/serial'], 'cwd': '/root/dev_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/serial'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[13.620106] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'install'}
+[13.621303] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/ackermann_msgs'], 'cwd': '/root/dev_ws/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/ackermann_msgs'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[13.630869] (-) TimerEvent: {}
+[13.659621] (origincar_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.663165] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/rosidl_interfaces/origincar_msg\n'}
+[13.668490] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg\n'}
+[13.669332] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg\n'}
+[13.670438] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/data.h\n'}
+[13.672336] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.674077] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/sign.h\n'}
+[13.681919] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[13.683997] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.h\n'}
+[13.686531] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__functions.h\n'}
+[13.690714] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__functions.h\n'}
+[13.700554] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__functions.c\n'}
+[13.702270] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.h\n'}
+[13.703532] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__functions.c\n'}
+[13.704820] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__struct.h\n'}
+[13.707801] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__struct.h\n'}
+[13.708934] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/library_path.sh\n'}
+[13.710048] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/library_path.dsv\n'}
+[13.711229] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_generator_c.so\n'}
+[13.712432] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg\n'}
+[13.713565] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg\n'}
+[13.714664] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.729749] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[13.734200] (-) TimerEvent: {}
+[13.739260] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h\n'}
+[13.741676] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_c.h\n'}
+[13.743972] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[13.750330] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg\n'}
+[13.752070] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg\n'}
+[13.753645] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.754656] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[13.757739] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.773559] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.774595] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/dds_fastrtps\n'}
+[13.775858] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.776941] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg\n'}
+[13.778038] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg\n'}
+[13.779038] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.780238] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[13.781228] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_c.h\n'}
+[13.782247] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.c\n'}
+[13.783220] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.c\n'}
+[13.801781] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_c.h\n'}
+[13.802775] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_c.so\n'}
+[13.803838] (line_follower) JobProgress: {'identifier': 'line_follower', 'progress': 'cmake'}
+[13.804124] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.804992] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/lib/libserial.a\n'}
+[13.805943] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[13.806797] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[13.826218] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/include/serial\n'}
+[13.827234] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/include/serial/v8stdint.h\n'}
+[13.828305] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/include/serial/serial.h\n'}
+[13.829231] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/include/serial/impl\n'}
+[13.830232] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/win.h\n'}
+[13.831230] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/unix.h\n'}
+[13.832293] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[13.833247] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[13.834226] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[13.835211] (-) TimerEvent: {}
+[13.850758] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[13.852142] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.sh\n'}
+[13.853694] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.dsv\n'}
+[13.854694] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.bash\n'}
+[13.855827] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.sh\n'}
+[13.856788] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.zsh\n'}
+[13.857692] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.dsv\n'}
+[13.858665] (serial) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/serial/share/serial/package.dsv\n'}
+[13.869190] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[13.870413] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.871439] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.872489] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.873487] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[13.874417] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[13.875506] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/serial/share/serial/package.xml\n'}
+[13.876561] (line_follower) JobProgress: {'identifier': 'line_follower', 'progress': 'build'}
+[13.876876] (line_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/line_follower', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/line_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/line_follower'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[13.882260] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_c.so\n'}
+[13.883581] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg\n'}
+[13.897751] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg\n'}
+[13.898716] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/data.hpp\n'}
+[13.899842] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.900918] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[13.901940] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__builder.hpp\n'}
+[13.902905] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__traits.hpp\n'}
+[13.904190] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__builder.hpp\n'}
+[13.905085] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__traits.hpp\n'}
+[13.905975] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__struct.hpp\n'}
+[13.906876] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.hpp\n'}
+[13.923756] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.hpp\n'}
+[13.926088] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__struct.hpp\n'}
+[13.927072] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/sign.hpp\n'}
+[13.928098] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg\n'}
+[13.928982] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg\n'}
+[13.929956] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[13.931136] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.cpp\n'}
+[13.932218] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.cpp\n'}
+[13.933132] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.934020] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.935009] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[13.935885] (-) TimerEvent: {}
+[13.936892] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_cpp.so\n'}
+[13.937954] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/pythonpath.sh\n'}
+[13.938933] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/pythonpath.dsv\n'}
+[13.953814] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/__init__.py\n'}
+[13.954787] (ackermann_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.955834] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/ackermann_msgs\n'}
+[13.956790] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs\n'}
+[13.957934] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[13.958837] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive.h\n'}
+[13.964282] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.965283] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive_stamped.h\n'}
+[13.966127] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[13.967097] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.c\n'}
+[13.968247] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__struct.h\n'}
+[13.969147] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.h\n'}
+[13.970078] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__functions.c\n'}
+[13.970979] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.h\n'}
+[13.981610] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__functions.h\n'}
+[13.982521] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.h\n'}
+[13.983474] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.h\n'}
+[13.984650] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.sh\n'}
+[13.985787] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.dsv\n'}
+[13.986921] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so\n'}
+[13.988450] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs\n'}
+[13.989534] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[13.990588] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.001481] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[14.002500] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_c.h\n'}
+[14.003467] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[14.004475] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[14.005338] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs\n'}
+[14.006227] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[14.007087] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.008276] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[14.009244] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.010148] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.011133] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/dds_fastrtps\n'}
+[14.026135] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.027216] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs\n'}
+[14.028320] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[14.029315] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.030226] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[14.031219] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_c.h\n'}
+[14.032480] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.c\n'}
+[14.033665] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_c.h\n'}
+[14.034634] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.c\n'}
+[14.052660] (-) TimerEvent: {}
+[14.053647] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so\n'}
+[14.054894] (serial) CommandEnded: {'returncode': 0}
+[14.058126] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so\n'}
+[14.059972] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs\n'}
+[14.061091] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[14.062110] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.063066] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive.hpp\n'}
+[14.064183] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive_stamped.hpp\n'}
+[14.065189] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[14.066211] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__builder.hpp\n'}
+[14.067251] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__builder.hpp\n'}
+[14.068402] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__traits.hpp\n'}
+[14.069411] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__traits.hpp\n'}
+[14.070408] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__struct.hpp\n'}
+[14.071545] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.hpp\n'}
+[14.085728] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.hpp\n'}
+[14.086856] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.hpp\n'}
+[14.088212] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs\n'}
+[14.089454] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[14.090431] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[14.091616] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.099067] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.cpp\n'}
+[14.100560] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.101499] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.cpp\n'}
+[14.102543] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[14.103721] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so\n'}
+[14.117075] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.sh\n'}
+[14.119009] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.dsv\n'}
+[14.126254] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/__init__.py\n'}
+[14.130458] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg\n'}
+[14.132398] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/__init__.py\n'}
+[14.136705] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_stamped_s.c\n'}
+[14.138286] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_stamped.py\n'}
+[14.140078] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive.py\n'}
+[14.143002] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_s.c\n'}
+[14.151717] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[14.159815] (-) TimerEvent: {}
+[14.164087] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[14.165583] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[14.168618] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/lib/libackermann_msgs__python.so\n'}
+[14.175353] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.idl\n'}
+[14.178284] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.idl\n'}
+[14.179810] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.msg\n'}
+[14.182163] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.msg\n'}
+[14.187744] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/ackermann_msgs\n'}
+[14.197097] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/ackermann_msgs\n'}
+[14.198753] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.sh\n'}
+[14.202831] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.dsv\n'}
+[14.203871] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.sh\n'}
+[14.204642] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.dsv\n'}
+[14.205353] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.bash\n'}
+[14.206059] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.sh\n'}
+[14.206895] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.zsh\n'}
+[14.207877] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.dsv\n'}
+[14.211068] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv\n'}
+[14.213648] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ament_index/resource_index/packages/ackermann_msgs\n'}
+[14.218747] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cExport.cmake\n'}
+[14.221078] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.222220] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg\n'}
+[14.223034] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_data_s.c\n'}
+[14.223925] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_sign.py\n'}
+[14.224743] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_sign_s.c\n'}
+[14.225545] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/__init__.py\n'}
+[14.227984] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_data.py\n'}
+[14.229427] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[14.231000] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.233239] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.236630] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport.cmake\n'}
+[14.241522] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.245513] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[14.249018] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[14.249965] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cppExport.cmake\n'}
+[14.254844] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.257859] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.263057] (-) TimerEvent: {}
+[14.267101] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[14.272468] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.275320] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[14.276313] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.280346] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.281252] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.282025] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.282731] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/lib/liborigincar_msg__python.so\n'}
+[14.283546] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.284307] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.285436] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig.cmake\n'}
+[14.287949] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig-version.cmake\n'}
+[14.292137] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/ackermann_msgs/share/ackermann_msgs/package.xml\n'}
+[14.296187] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Data.idl\n'}
+[14.298607] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Sign.idl\n'}
+[14.304957] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Data.msg\n'}
+[14.305998] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/msg/Sign.msg\n'}
+[14.309239] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/package_run_dependencies/origincar_msg\n'}
+[14.312506] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/parent_prefix_path/origincar_msg\n'}
+[14.315759] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.sh\n'}
+[14.318605] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.dsv\n'}
+[14.323451] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/path.sh\n'}
+[14.326608] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/environment/path.dsv\n'}
+[14.331025] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.bash\n'}
+[14.338096] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.sh\n'}
+[14.341071] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.zsh\n'}
+[14.346917] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/local_setup.dsv\n'}
+[14.352209] (origincar_msg) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_msg/share/origincar_msg/package.dsv\n'}
+[14.354211] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/ament_index/resource_index/packages/origincar_msg\n'}
+[14.358940] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cExport.cmake\n'}
+[14.361860] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.368505] (-) TimerEvent: {}
+[14.370710] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.373296] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.376499] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport.cmake\n'}
+[14.379905] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.382972] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cppExport.cmake\n'}
+[14.384065] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.393077] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.396272] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport.cmake\n'}
+[14.400996] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.403046] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[14.406602] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.410635] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.415988] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.418465] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.420824] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.422793] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.427751] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig.cmake\n'}
+[14.430068] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig-version.cmake\n'}
+[14.432169] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_msg/share/origincar_msg/package.xml\n'}
+[14.468739] (-) TimerEvent: {}
+[14.571137] (-) TimerEvent: {}
+[14.674917] (-) TimerEvent: {}
+[14.779621] (-) TimerEvent: {}
+[14.885391] (-) TimerEvent: {}
+[14.988315] (-) TimerEvent: {}
+[15.094134] (-) TimerEvent: {}
+[15.197040] (-) TimerEvent: {}
+[15.209548] (ackermann_msgs) CommandEnded: {'returncode': 0}
+[15.297286] (-) TimerEvent: {}
+[15.406120] (-) TimerEvent: {}
+[15.510171] (-) TimerEvent: {}
+[15.612955] (-) TimerEvent: {}
+[15.717244] (-) TimerEvent: {}
+[15.820824] (-) TimerEvent: {}
+[15.929338] (-) TimerEvent: {}
+[16.031160] (-) TimerEvent: {}
+[16.134241] (-) TimerEvent: {}
+[16.236991] (-) TimerEvent: {}
+[16.342290] (-) TimerEvent: {}
+[16.449973] (-) TimerEvent: {}
+[16.552750] (-) TimerEvent: {}
+[16.654428] (-) TimerEvent: {}
+[16.760169] (-) TimerEvent: {}
+[16.862276] (-) TimerEvent: {}
+[16.964572] (-) TimerEvent: {}
+[17.069898] (-) TimerEvent: {}
+[17.131831] (line_follower) CommandEnded: {'returncode': 0}
+[17.152952] (origincar_msg) CommandEnded: {'returncode': 0}
+[17.170304] (-) TimerEvent: {}
+[17.273689] (-) TimerEvent: {}
+[17.378578] (-) TimerEvent: {}
+[17.485106] (-) TimerEvent: {}
+[17.589866] (-) TimerEvent: {}
+[17.692519] (-) TimerEvent: {}
+[17.795637] (-) TimerEvent: {}
+[17.903384] (-) TimerEvent: {}
+[18.007604] (-) TimerEvent: {}
+[18.109842] (-) TimerEvent: {}
+[18.214412] (-) TimerEvent: {}
+[18.317542] (-) TimerEvent: {}
+[18.420524] (-) TimerEvent: {}
+[18.525127] (-) TimerEvent: {}
+[18.627988] (-) TimerEvent: {}
+[18.730400] (-) TimerEvent: {}
+[18.833619] (-) TimerEvent: {}
+[18.941824] (-) TimerEvent: {}
+[19.046870] (-) TimerEvent: {}
+[19.156166] (-) TimerEvent: {}
+[19.265352] (-) TimerEvent: {}
+[19.368584] (-) TimerEvent: {}
+[19.473390] (-) TimerEvent: {}
+[19.577046] (-) TimerEvent: {}
+[19.682282] (-) TimerEvent: {}
+[19.783866] (-) TimerEvent: {}
+[19.886686] (-) TimerEvent: {}
+[19.988599] (-) TimerEvent: {}
+[20.091639] (-) TimerEvent: {}
+[20.196754] (-) TimerEvent: {}
+[20.303138] (-) TimerEvent: {}
+[20.404398] (-) TimerEvent: {}
+[20.509217] (-) TimerEvent: {}
+[20.525914] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[20.610819] (-) TimerEvent: {}
+[20.713725] (-) TimerEvent: {}
+[20.818501] (-) TimerEvent: {}
+[20.923953] (-) TimerEvent: {}
+[21.027153] (-) TimerEvent: {}
+[21.134670] (-) TimerEvent: {}
+[21.237556] (-) TimerEvent: {}
+[21.340931] (-) TimerEvent: {}
+[21.444927] (-) TimerEvent: {}
+[21.550337] (-) TimerEvent: {}
+[21.651916] (-) TimerEvent: {}
+[21.756759] (-) TimerEvent: {}
+[21.857957] (-) TimerEvent: {}
+[21.961446] (-) TimerEvent: {}
+[22.066805] (-) TimerEvent: {}
+[22.173857] (-) TimerEvent: {}
+[22.279416] (-) TimerEvent: {}
+[22.384204] (-) TimerEvent: {}
+[22.485197] (-) TimerEvent: {}
+[22.588458] (-) TimerEvent: {}
+[22.696256] (-) TimerEvent: {}
+[22.717898] (ackermann_msgs) JobEnded: {'identifier': 'ackermann_msgs', 'rc': 0}
+[22.732906] (line_follower_model) JobStarted: {'identifier': 'line_follower_model'}
+[22.797065] (-) TimerEvent: {}
+[22.904798] (-) TimerEvent: {}
+[23.007365] (-) TimerEvent: {}
+[23.111640] (-) TimerEvent: {}
+[23.215510] (-) TimerEvent: {}
+[23.317438] (-) TimerEvent: {}
+[23.420065] (-) TimerEvent: {}
+[23.523201] (-) TimerEvent: {}
+[23.627927] (-) TimerEvent: {}
+[23.745721] (-) TimerEvent: {}
+[23.849880] (-) TimerEvent: {}
+[23.951541] (-) TimerEvent: {}
+[24.054648] (-) TimerEvent: {}
+[24.157680] (-) TimerEvent: {}
+[24.262597] (-) TimerEvent: {}
+[24.366464] (-) TimerEvent: {}
+[24.469255] (-) TimerEvent: {}
+[24.577228] (-) TimerEvent: {}
+[24.591910] (origincar_bringup) JobStarted: {'identifier': 'origincar_bringup'}
+[24.677714] (-) TimerEvent: {}
+[24.779978] (-) TimerEvent: {}
+[24.884860] (-) TimerEvent: {}
+[24.991645] (-) TimerEvent: {}
+[25.094824] (-) TimerEvent: {}
+[25.196221] (-) TimerEvent: {}
+[25.297459] (-) TimerEvent: {}
+[25.406007] (-) TimerEvent: {}
+[25.511229] (-) TimerEvent: {}
+[25.613372] (-) TimerEvent: {}
+[25.716414] (-) TimerEvent: {}
+[25.819883] (-) TimerEvent: {}
+[25.921642] (-) TimerEvent: {}
+[26.026993] (-) TimerEvent: {}
+[26.131235] (-) TimerEvent: {}
+[26.235163] (-) TimerEvent: {}
+[26.337494] (-) TimerEvent: {}
+[26.442821] (-) TimerEvent: {}
+[26.545058] (-) TimerEvent: {}
+[26.648973] (-) TimerEvent: {}
+[26.753843] (-) TimerEvent: {}
+[26.859898] (-) TimerEvent: {}
+[26.961820] (-) TimerEvent: {}
+[27.063473] (-) TimerEvent: {}
+[27.165761] (-) TimerEvent: {}
+[27.270205] (-) TimerEvent: {}
+[27.372719] (-) TimerEvent: {}
+[27.477060] (-) TimerEvent: {}
+[27.579655] (-) TimerEvent: {}
+[27.682966] (-) TimerEvent: {}
+[27.787661] (-) TimerEvent: {}
+[27.891664] (-) TimerEvent: {}
+[27.994996] (-) TimerEvent: {}
+[28.097692] (-) TimerEvent: {}
+[28.199190] (-) TimerEvent: {}
+[28.304234] (-) TimerEvent: {}
+[28.405930] (-) TimerEvent: {}
+[28.509556] (-) TimerEvent: {}
+[28.614377] (-) TimerEvent: {}
+[28.651586] (origincar_msg) JobEnded: {'identifier': 'origincar_msg', 'rc': 0}
+[28.658964] (tf2_tools) JobStarted: {'identifier': 'tf2_tools'}
+[28.714825] (-) TimerEvent: {}
+[28.817194] (-) TimerEvent: {}
+[28.919552] (-) TimerEvent: {}
+[29.023029] (-) TimerEvent: {}
+[29.125510] (-) TimerEvent: {}
+[29.229492] (-) TimerEvent: {}
+[29.338876] (-) TimerEvent: {}
+[29.444320] (-) TimerEvent: {}
+[29.548140] (-) TimerEvent: {}
+[29.650246] (-) TimerEvent: {}
+[29.752970] (-) TimerEvent: {}
+[29.855059] (-) TimerEvent: {}
+[29.959412] (-) TimerEvent: {}
+[30.063428] (-) TimerEvent: {}
+[30.166324] (-) TimerEvent: {}
+[30.269367] (-) TimerEvent: {}
+[30.372019] (-) TimerEvent: {}
+[30.474448] (-) TimerEvent: {}
+[30.578040] (-) TimerEvent: {}
+[30.680991] (-) TimerEvent: {}
+[30.738115] (line_follower) JobProgress: {'identifier': 'line_follower', 'progress': 'install'}
+[30.740626] (line_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/line_follower'], 'cwd': '/root/dev_ws/build/line_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/line_follower'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[30.781409] (-) TimerEvent: {}
+[30.887520] (-) TimerEvent: {}
+[30.991527] (-) TimerEvent: {}
+[31.095501] (-) TimerEvent: {}
+[31.196784] (-) TimerEvent: {}
+[31.297956] (-) TimerEvent: {}
+[31.399132] (-) TimerEvent: {}
+[31.500366] (-) TimerEvent: {}
+[31.601494] (-) TimerEvent: {}
+[31.702566] (-) TimerEvent: {}
+[31.803703] (-) TimerEvent: {}
+[31.904762] (-) TimerEvent: {}
+[32.006235] (-) TimerEvent: {}
+[32.107664] (-) TimerEvent: {}
+[32.209085] (-) TimerEvent: {}
+[32.310325] (-) TimerEvent: {}
+[32.411533] (-) TimerEvent: {}
+[32.512679] (-) TimerEvent: {}
+[32.613905] (-) TimerEvent: {}
+[32.715009] (-) TimerEvent: {}
+[32.813911] (origincar_bringup) JobProgress: {'identifier': 'origincar_bringup', 'progress': 'cmake'}
+[32.816100] (-) TimerEvent: {}
+[32.822999] (origincar_bringup) JobProgress: {'identifier': 'origincar_bringup', 'progress': 'build'}
+[32.824337] (origincar_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/origincar_bringup', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/origincar_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_bringup'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[32.843074] (line_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.844527] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/pythonpath.sh\n'}
+[32.845686] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/pythonpath.dsv\n'}
+[32.846822] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower\n'}
+[32.848211] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/line_follower_node.py\n'}
+[32.849265] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/__init__.py\n'}
+[32.850490] (line_follower) StdoutLine: {'line': b"Listing '/root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower'...\n"}
+[32.851892] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/lib/line_follower/line_follower_node.py\n'}
+[32.852814] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/package_run_dependencies/line_follower\n'}
+[32.853755] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/parent_prefix_path/line_follower\n'}
+[32.854583] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/ament_prefix_path.sh\n'}
+[32.855669] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/ament_prefix_path.dsv\n'}
+[32.864054] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/path.sh\n'}
+[32.865038] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/path.dsv\n'}
+[32.865918] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.bash\n'}
+[32.868210] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.sh\n'}
+[32.869280] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.zsh\n'}
+[32.870335] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.dsv\n'}
+[32.871496] (line_follower) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/line_follower/share/line_follower/package.dsv\n'}
+[32.882269] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/packages/line_follower\n'}
+[32.883885] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/cmake/line_followerConfig.cmake\n'}
+[32.884982] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/cmake/line_followerConfig-version.cmake\n'}
+[32.886120] (line_follower) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/package.xml\n'}
+[32.887221] (line_follower) CommandEnded: {'returncode': 0}
+[32.916698] (-) TimerEvent: {}
+[33.023488] (-) TimerEvent: {}
+[33.127528] (-) TimerEvent: {}
+[33.228768] (-) TimerEvent: {}
+[33.330046] (-) TimerEvent: {}
+[33.431243] (-) TimerEvent: {}
+[33.533805] (-) TimerEvent: {}
+[33.635000] (-) TimerEvent: {}
+[33.737398] (-) TimerEvent: {}
+[33.838583] (-) TimerEvent: {}
+[33.943487] (-) TimerEvent: {}
+[34.047502] (-) TimerEvent: {}
+[34.151487] (-) TimerEvent: {}
+[34.255498] (-) TimerEvent: {}
+[34.356751] (-) TimerEvent: {}
+[34.459195] (-) TimerEvent: {}
+[34.561759] (-) TimerEvent: {}
+[34.664091] (-) TimerEvent: {}
+[34.765238] (-) TimerEvent: {}
+[34.866412] (-) TimerEvent: {}
+[34.968650] (-) TimerEvent: {}
+[35.069757] (-) TimerEvent: {}
+[35.171010] (-) TimerEvent: {}
+[35.273624] (-) TimerEvent: {}
+[35.378283] (-) TimerEvent: {}
+[35.483630] (-) TimerEvent: {}
+[35.589013] (-) TimerEvent: {}
+[35.694011] (-) TimerEvent: {}
+[35.800358] (-) TimerEvent: {}
+[35.906558] (-) TimerEvent: {}
+[36.010659] (-) TimerEvent: {}
+[36.116996] (-) TimerEvent: {}
+[36.224527] (-) TimerEvent: {}
+[36.334001] (-) TimerEvent: {}
+[36.437185] (-) TimerEvent: {}
+[36.541508] (-) TimerEvent: {}
+[36.647870] (-) TimerEvent: {}
+[36.752187] (-) TimerEvent: {}
+[36.854532] (-) TimerEvent: {}
+[36.957151] (-) TimerEvent: {}
+[37.064265] (-) TimerEvent: {}
+[37.163909] (origincar_bringup) CommandEnded: {'returncode': 0}
+[37.166809] (-) TimerEvent: {}
+[37.187418] (line_follower_model) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/line_follower_model', 'build', '--build-base', '/root/dev_ws/build/line_follower_model/build', 'install', '--record', '/root/dev_ws/build/line_follower_model/install.log', '--install-scripts', '$base/lib/line_follower_model', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/src/line_follower_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-0/default,28285,0', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.1.22 5913 22', 'ROS_PACKAGE_PATH': '/root/dev_ws/install/line_follower/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLCON_PREFIX_PATH': '/root/dev_ws/install:/opt/tros', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/dev_ws/build/line_follower_model', 'SSH_CONNECTION': '192.168.1.22 5913 192.168.1.10 22', 'PYTHONPATH': '/root/dev_ws/build/line_follower_model/prefix_override:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%2', 'CMAKE_PREFIX_PATH': '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros'}, 'shell': False}
+[37.267421] (-) TimerEvent: {}
+[37.370383] (-) TimerEvent: {}
+[37.473195] (-) TimerEvent: {}
+[37.576463] (-) TimerEvent: {}
+[37.680754] (-) TimerEvent: {}
+[37.783128] (-) TimerEvent: {}
+[37.885717] (-) TimerEvent: {}
+[37.991060] (-) TimerEvent: {}
+[38.101904] (-) TimerEvent: {}
+[38.205513] (-) TimerEvent: {}
+[38.311449] (-) TimerEvent: {}
+[38.414100] (-) TimerEvent: {}
+[38.518901] (-) TimerEvent: {}
+[38.624806] (-) TimerEvent: {}
+[38.731937] (-) TimerEvent: {}
+[38.836440] (-) TimerEvent: {}
+[38.940692] (-) TimerEvent: {}
+[39.043019] (-) TimerEvent: {}
+[39.147217] (-) TimerEvent: {}
+[39.251968] (-) TimerEvent: {}
+[39.359182] (-) TimerEvent: {}
+[39.464705] (-) TimerEvent: {}
+[39.569709] (-) TimerEvent: {}
+[39.674179] (-) TimerEvent: {}
+[39.777265] (-) TimerEvent: {}
+[39.880993] (-) TimerEvent: {}
+[39.982633] (-) TimerEvent: {}
+[40.084199] (-) TimerEvent: {}
+[40.186673] (-) TimerEvent: {}
+[40.289814] (-) TimerEvent: {}
+[40.391375] (-) TimerEvent: {}
+[40.495816] (-) TimerEvent: {}
+[40.599012] (-) TimerEvent: {}
+[40.704862] (-) TimerEvent: {}
+[40.810546] (-) TimerEvent: {}
+[40.890816] (line_follower) JobEnded: {'identifier': 'line_follower', 'rc': 0}
+[40.911917] (-) TimerEvent: {}
+[40.920917] (line_follower_model) StdoutLine: {'line': b'running egg_info\n'}
+[40.922216] (line_follower_model) StdoutLine: {'line': b'writing ../../build/line_follower_model/line_follower_model.egg-info/PKG-INFO\n'}
+[40.923548] (line_follower_model) StdoutLine: {'line': b'writing dependency_links to ../../build/line_follower_model/line_follower_model.egg-info/dependency_links.txt\n'}
+[40.927381] (line_follower_model) StdoutLine: {'line': b'writing entry points to ../../build/line_follower_model/line_follower_model.egg-info/entry_points.txt\n'}
+[40.930038] (line_follower_model) StdoutLine: {'line': b'writing requirements to ../../build/line_follower_model/line_follower_model.egg-info/requires.txt\n'}
+[40.930905] (line_follower_model) StdoutLine: {'line': b'writing top-level names to ../../build/line_follower_model/line_follower_model.egg-info/top_level.txt\n'}
+[40.931963] (line_follower_model) StdoutLine: {'line': b"reading manifest file '../../build/line_follower_model/line_follower_model.egg-info/SOURCES.txt'\n"}
+[40.932906] (line_follower_model) StdoutLine: {'line': b"writing manifest file '../../build/line_follower_model/line_follower_model.egg-info/SOURCES.txt'\n"}
+[40.933985] (line_follower_model) StdoutLine: {'line': b'running build\n'}
+[40.935031] (line_follower_model) StdoutLine: {'line': b'running build_py\n'}
+[40.936126] (line_follower_model) StdoutLine: {'line': b'running install\n'}
+[40.937057] (line_follower_model) StdoutLine: {'line': b'running install_lib\n'}
+[40.937938] (line_follower_model) StdoutLine: {'line': b'running install_data\n'}
+[40.938877] (line_follower_model) StdoutLine: {'line': b'running install_egg_info\n'}
+[40.939896] (line_follower_model) StdoutLine: {'line': b"removing '/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages/line_follower_model-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[40.940728] (line_follower_model) StdoutLine: {'line': b'Copying ../../build/line_follower_model/line_follower_model.egg-info to /root/dev_ws/install/line_follower_model/lib/python3.8/site-packages/line_follower_model-0.0.0-py3.8.egg-info\n'}
+[40.941597] (line_follower_model) StdoutLine: {'line': b'running install_scripts\n'}
+[40.942488] (line_follower_model) StdoutLine: {'line': b'Installing annotation script to /root/dev_ws/install/line_follower_model/lib/line_follower_model\n'}
+[40.943476] (line_follower_model) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/build/line_follower_model/install.log'\n"}
+[40.944547] (origincar_base) JobStarted: {'identifier': 'origincar_base'}
+[41.012549] (-) TimerEvent: {}
+[41.114693] (-) TimerEvent: {}
+[41.219258] (-) TimerEvent: {}
+[41.320661] (-) TimerEvent: {}
+[41.425254] (-) TimerEvent: {}
+[41.528008] (-) TimerEvent: {}
+[41.632799] (-) TimerEvent: {}
+[41.738778] (-) TimerEvent: {}
+[41.840609] (-) TimerEvent: {}
+[41.945194] (-) TimerEvent: {}
+[42.049211] (-) TimerEvent: {}
+[42.155950] (-) TimerEvent: {}
+[42.260034] (-) TimerEvent: {}
+[42.361990] (-) TimerEvent: {}
+[42.469420] (-) TimerEvent: {}
+[42.573928] (-) TimerEvent: {}
+[42.676769] (-) TimerEvent: {}
+[42.781611] (-) TimerEvent: {}
+[42.888639] (-) TimerEvent: {}
+[42.996178] (-) TimerEvent: {}
+[43.009470] (line_follower_model) CommandEnded: {'returncode': 0}
+[43.096457] (-) TimerEvent: {}
+[43.200396] (-) TimerEvent: {}
+[43.305879] (-) TimerEvent: {}
+[43.407865] (-) TimerEvent: {}
+[43.510317] (-) TimerEvent: {}
+[43.612459] (-) TimerEvent: {}
+[43.714746] (-) TimerEvent: {}
+[43.817732] (-) TimerEvent: {}
+[43.924144] (-) TimerEvent: {}
+[44.026895] (-) TimerEvent: {}
+[44.131458] (-) TimerEvent: {}
+[44.237938] (-) TimerEvent: {}
+[44.329327] (line_follower_model) JobEnded: {'identifier': 'line_follower_model', 'rc': 0}
+[44.337357] (origincar_bringup) JobProgress: {'identifier': 'origincar_bringup', 'progress': 'install'}
+[44.338716] (-) TimerEvent: {}
+[44.346448] (origincar_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/origincar_bringup'], 'cwd': '/root/dev_ws/build/origincar_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_bringup'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros')]), 'shell': False}
+[44.361946] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'cmake'}
+[44.367580] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'build'}
+[44.370370] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/origincar_base', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/origincar_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_base'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/opt/tros')]), 'shell': False}
+[44.394114] (tf2_tools) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/tf2_tools', 'build', '--build-base', '/root/dev_ws/build/tf2_tools/build', 'install', '--record', '/root/dev_ws/build/tf2_tools/install.log', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/src/origincar/3rdparty/tf2_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-0/default,28285,0', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.1.22 5913 22', 'ROS_PACKAGE_PATH': '/root/dev_ws/install/line_follower/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLCON_PREFIX_PATH': '/root/dev_ws/install:/opt/tros', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/dev_ws/build/tf2_tools', 'SSH_CONNECTION': '192.168.1.22 5913 192.168.1.10 22', 'PYTHONPATH': '/root/dev_ws/build/tf2_tools/prefix_override:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%2', 'CMAKE_PREFIX_PATH': '/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros'}, 'shell': False}
+[44.400553] (origincar_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.411954] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch\n'}
+[44.416440] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/camera.launch.py\n'}
+[44.417450] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch_back.py\n'}
+[44.418376] (origincar_bringup) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py\n'}
+[44.419392] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup\n'}
+[44.421094] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup\n'}
+[44.422020] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh\n'}
+[44.423047] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv\n'}
+[44.424111] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh\n'}
+[44.428354] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv\n'}
+[44.429363] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash\n'}
+[44.430370] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh\n'}
+[44.431402] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh\n'}
+[44.432424] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv\n'}
+[44.433374] (origincar_bringup) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/package.dsv\n'}
+[44.434302] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup\n'}
+[44.435360] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake\n'}
+[44.436429] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake\n'}
+[44.437464] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/package.xml\n'}
+[44.438895] (-) TimerEvent: {}
+[44.449247] (origincar_bringup) CommandEnded: {'returncode': 0}
+[44.542910] (-) TimerEvent: {}
+[44.647451] (-) TimerEvent: {}
+[44.753533] (-) TimerEvent: {}
+[44.856920] (-) TimerEvent: {}
+[44.930487] (origincar_base) StdoutLine: {'line': b'[  8%] Built target origincar_base_node\n'}
+[44.958656] (-) TimerEvent: {}
+[45.061401] (-) TimerEvent: {}
+[45.063650] (origincar_base) StdoutLine: {'line': b'[ 17%] Built target origincar_base__rosidl_generator_c\n'}
+[45.162422] (-) TimerEvent: {}
+[45.187208] (origincar_base) StdoutLine: {'line': b'[ 20%] Built target origincar_base__cpp\n'}
+[45.263794] (-) TimerEvent: {}
+[45.316482] (origincar_base) StdoutLine: {'line': b'[ 29%] Built target origincar_base__rosidl_typesupport_introspection_c\n'}
+[45.364643] (-) TimerEvent: {}
+[45.447658] (origincar_base) StdoutLine: {'line': b'[ 38%] Built target origincar_base__rosidl_typesupport_introspection_cpp\n'}
+[45.466506] (-) TimerEvent: {}
+[45.570468] (-) TimerEvent: {}
+[45.580487] (origincar_base) StdoutLine: {'line': b'[ 47%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp\n'}
+[45.672039] (-) TimerEvent: {}
+[45.717290] (origincar_base) StdoutLine: {'line': b'[ 55%] Built target origincar_base__rosidl_typesupport_cpp\n'}
+[45.773279] (-) TimerEvent: {}
+[45.852561] (origincar_base) StdoutLine: {'line': b'[ 64%] Built target origincar_base__rosidl_typesupport_fastrtps_c\n'}
+[45.879527] (-) TimerEvent: {}
+[45.984403] (-) TimerEvent: {}
+[46.028758] (origincar_base) StdoutLine: {'line': b'[ 73%] Built target origincar_base__rosidl_typesupport_c\n'}
+[46.084674] (-) TimerEvent: {}
+[46.189071] (-) TimerEvent: {}
+[46.190479] (origincar_base) StdoutLine: {'line': b'[ 73%] Built target origincar_base\n'}
+[46.289341] (-) TimerEvent: {}
+[46.337840] (origincar_base) StdoutLine: {'line': b'[ 76%] Built target origincar_base__py\n'}
+[46.392694] (-) TimerEvent: {}
+[46.496429] (-) TimerEvent: {}
+[46.575384] (origincar_base) StdoutLine: {'line': b'[ 82%] Built target origincar_base__python\n'}
+[46.599997] (-) TimerEvent: {}
+[46.702198] (-) TimerEvent: {}
+[46.805431] (-) TimerEvent: {}
+[46.811596] (origincar_base) StdoutLine: {'line': b'[ 88%] Built target origincar_base__rosidl_typesupport_c__pyext\n'}
+[46.839102] (tf2_tools) StdoutLine: {'line': b'running egg_info\n'}
+[46.843850] (tf2_tools) StdoutLine: {'line': b'writing ../../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO\n'}
+[46.845064] (tf2_tools) StdoutLine: {'line': b'writing dependency_links to ../../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt\n'}
+[46.846007] (tf2_tools) StdoutLine: {'line': b'writing entry points to ../../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt\n'}
+[46.846971] (tf2_tools) StdoutLine: {'line': b'writing requirements to ../../../../build/tf2_tools/tf2_tools.egg-info/requires.txt\n'}
+[46.863972] (tf2_tools) StdoutLine: {'line': b'writing top-level names to ../../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt\n'}
+[46.906555] (-) TimerEvent: {}
+[47.018813] (-) TimerEvent: {}
+[47.021360] (origincar_base) StdoutLine: {'line': b'[ 94%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext\n'}
+[47.119144] (-) TimerEvent: {}
+[47.178320] (origincar_base) StdoutLine: {'line': b'[100%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext\n'}
+[47.199984] (tf2_tools) StdoutLine: {'line': b"reading manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'\n"}
+[47.206337] (tf2_tools) StdoutLine: {'line': b"writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'\n"}
+[47.209479] (tf2_tools) StdoutLine: {'line': b'running build\n'}
+[47.210644] (tf2_tools) StdoutLine: {'line': b'running build_py\n'}
+[47.214533] (tf2_tools) StdoutLine: {'line': b'running install\n'}
+[47.219550] (-) TimerEvent: {}
+[47.225199] (tf2_tools) StdoutLine: {'line': b'running install_lib\n'}
+[47.235628] (tf2_tools) StdoutLine: {'line': b'running install_data\n'}
+[47.239414] (tf2_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[47.254670] (tf2_tools) StdoutLine: {'line': b"removing '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info' (and everything under it)\n"}
+[47.257730] (tf2_tools) StdoutLine: {'line': b'Copying ../../../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info\n'}
+[47.261767] (tf2_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[47.320465] (-) TimerEvent: {}
+[47.408992] (tf2_tools) StdoutLine: {'line': b'Installing view_frames script to /root/dev_ws/install/tf2_tools/lib/tf2_tools\n'}
+[47.410828] (tf2_tools) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/build/tf2_tools/install.log'\n"}
+[47.420767] (-) TimerEvent: {}
+[47.529533] (-) TimerEvent: {}
+[47.643245] (-) TimerEvent: {}
+[47.749943] (-) TimerEvent: {}
+[47.852771] (-) TimerEvent: {}
+[47.955427] (-) TimerEvent: {}
+[47.987866] (origincar_bringup) JobEnded: {'identifier': 'origincar_bringup', 'rc': 0}
+[47.994928] (origincar_base) CommandEnded: {'returncode': 0}
+[48.013713] (tf2_tools) CommandEnded: {'returncode': 0}
+[48.056158] (-) TimerEvent: {}
+[48.163603] (-) TimerEvent: {}
+[48.268655] (-) TimerEvent: {}
+[48.371438] (-) TimerEvent: {}
+[48.475606] (-) TimerEvent: {}
+[48.578743] (-) TimerEvent: {}
+[48.682398] (-) TimerEvent: {}
+[48.786192] (-) TimerEvent: {}
+[48.890724] (-) TimerEvent: {}
+[48.994532] (-) TimerEvent: {}
+[49.096445] (-) TimerEvent: {}
+[49.129464] (tf2_tools) JobEnded: {'identifier': 'tf2_tools', 'rc': 0}
+[49.138984] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'install'}
+[49.140243] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/origincar_base'], 'cwd': '/root/dev_ws/build/origincar_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-0/default,28285,0'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.1.22 5913 22'), ('ROS_PACKAGE_PATH', '/root/dev_ws/install/line_follower/share'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/root/dev_ws/install/origincar_base/lib:/root/dev_ws/install/serial/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/dev_ws/install/line_follower/lib/aarch64-linux-gnu/pkgconfig:/root/dev_ws/install/line_follower/lib/pkgconfig:/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/tf2_tools:/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_base'), ('SSH_CONNECTION', '192.168.1.22 5913 192.168.1.10 22'), ('PYTHONPATH', '/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:/root/dev_ws/install/line_follower/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/root/dev_ws/install/origincar_base:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/opt/tros')]), 'shell': False}
+[49.195893] (origincar_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.197440] (-) TimerEvent: {}
+[49.198537] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/rosidl_interfaces/origincar_base\n'}
+[49.199699] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[49.201058] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[49.201851] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_generator_c__visibility_control.h\n'}
+[49.202719] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/position.h\n'}
+[49.204282] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[49.205224] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.h\n'}
+[49.206433] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__struct.h\n'}
+[49.207398] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__functions.c\n'}
+[49.208274] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__functions.h\n'}
+[49.209646] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/library_path.sh\n'}
+[49.210430] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/library_path.dsv\n'}
+[49.211410] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_generator_c.so\n'}
+[49.212246] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[49.213211] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[49.214236] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[49.215779] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[49.216851] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[49.217795] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_c.so\n'}
+[49.218557] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[49.219489] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[49.220354] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[49.221582] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[49.222432] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.223395] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/dds_fastrtps\n'}
+[49.224277] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_cpp.so\n'}
+[49.225135] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[49.225986] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[49.226989] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[49.228036] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[49.228970] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.c\n'}
+[49.229985] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[49.230915] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_c.so\n'}
+[49.231891] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_c.so\n'}
+[49.232800] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[49.233614] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[49.234384] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[49.235224] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[49.236206] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.hpp\n'}
+[49.237014] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__struct.hpp\n'}
+[49.237789] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__traits.hpp\n'}
+[49.238653] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__builder.hpp\n'}
+[49.239684] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/position.hpp\n'}
+[49.240611] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[49.241475] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[49.242263] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[49.243046] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.244142] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.cpp\n'}
+[49.244990] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_cpp.so\n'}
+[49.245787] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_cpp.so\n'}
+[49.246591] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/pythonpath.sh\n'}
+[49.247458] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/pythonpath.dsv\n'}
+[49.248319] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/__init__.py\n'}
+[49.297688] (-) TimerEvent: {}
+[49.398734] (-) TimerEvent: {}
+[49.499812] (-) TimerEvent: {}
+[49.508211] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg\n'}
+[49.509180] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/__init__.py\n'}
+[49.510130] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position.py\n'}
+[49.511217] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position_s.c\n'}
+[49.512231] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[49.514288] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[49.517914] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[49.520472] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__python.so\n'}
+[49.521921] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/msg/Position.idl\n'}
+[49.523522] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/msg/Position.msg\n'}
+[49.524787] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/origincar_base/cmd_vel_to_ackermann_drive.py\n'}
+[49.527206] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/origincar_base/origincar_base_node\n'}
+[49.529451] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch\n'}
+[49.531908] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/__pycache__\n'}
+[49.533042] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/__pycache__/testtwo.launch.cpython-38.pyc\n'}
+[49.534183] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/ekf.launch.py\n'}
+[49.537832] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/base_serial.launch.py\n'}
+[49.539796] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/origincar_bringup.launch.py\n'}
+[49.541583] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/robot_mode_description.launch.py\n'}
+[49.542682] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config\n'}
+[49.543731] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config/imu.yaml\n'}
+[49.545603] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config/ekf.yaml\n'}
+[49.547208] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/package_run_dependencies/origincar_base\n'}
+[49.550165] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/parent_prefix_path/origincar_base\n'}
+[49.552515] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/ament_prefix_path.sh\n'}
+[49.553518] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/ament_prefix_path.dsv\n'}
+[49.554631] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/path.sh\n'}
+[49.555845] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/path.dsv\n'}
+[49.556807] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.bash\n'}
+[49.557751] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.sh\n'}
+[49.559681] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.zsh\n'}
+[49.560916] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.dsv\n'}
+[49.561916] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/share/origincar_base/package.dsv\n'}
+[49.562886] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/packages/origincar_base\n'}
+[49.564106] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport.cmake\n'}
+[49.565788] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport-noconfig.cmake\n'}
+[49.570080] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport.cmake\n'}
+[49.571195] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[49.573028] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport.cmake\n'}
+[49.575591] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[49.577535] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cppExport.cmake\n'}
+[49.578605] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[49.593263] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[49.596271] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport.cmake\n'}
+[49.597475] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[49.598733] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake-extras.cmake\n'}
+[49.601127] (-) TimerEvent: {}
+[49.602352] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[49.612797] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[49.615741] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[49.617116] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[49.622763] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[49.625972] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[49.627085] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig.cmake\n'}
+[49.628584] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig-version.cmake\n'}
+[49.633218] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/package.xml\n'}
+[49.634443] (origincar_base) CommandEnded: {'returncode': 0}
+[49.701969] (-) TimerEvent: {}
+[49.807536] (-) TimerEvent: {}
+[49.913255] (-) TimerEvent: {}
+[50.016387] (-) TimerEvent: {}
+[50.119894] (-) TimerEvent: {}
+[50.223215] (-) TimerEvent: {}
+[50.325273] (-) TimerEvent: {}
+[50.427589] (-) TimerEvent: {}
+[50.530361] (-) TimerEvent: {}
+[50.633292] (-) TimerEvent: {}
+[50.736919] (-) TimerEvent: {}
+[50.839191] (-) TimerEvent: {}
+[50.942056] (-) TimerEvent: {}
+[51.045519] (-) TimerEvent: {}
+[51.148109] (-) TimerEvent: {}
+[51.249277] (-) TimerEvent: {}
+[51.351112] (-) TimerEvent: {}
+[51.455587] (-) TimerEvent: {}
+[51.556731] (-) TimerEvent: {}
+[51.658394] (-) TimerEvent: {}
+[51.761694] (-) TimerEvent: {}
+[51.865309] (-) TimerEvent: {}
+[51.970302] (-) TimerEvent: {}
+[52.075841] (-) TimerEvent: {}
+[52.180369] (-) TimerEvent: {}
+[52.282925] (-) TimerEvent: {}
+[52.390071] (-) TimerEvent: {}
+[52.496904] (-) TimerEvent: {}
+[52.612233] (-) TimerEvent: {}
+[52.717149] (-) TimerEvent: {}
+[52.820851] (-) TimerEvent: {}
+[52.925535] (-) TimerEvent: {}
+[53.034313] (-) TimerEvent: {}
+[53.137155] (-) TimerEvent: {}
+[53.241956] (-) TimerEvent: {}
+[53.342992] (-) TimerEvent: {}
+[53.446490] (-) TimerEvent: {}
+[53.549179] (-) TimerEvent: {}
+[53.651774] (-) TimerEvent: {}
+[53.730102] (origincar_base) JobEnded: {'identifier': 'origincar_base', 'rc': 0}
+[53.736715] (-) EventReactorShutdown: {}

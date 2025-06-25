@@ -1,0 +1,25 @@
+[0.521s] Invoking command in '/root/dev_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/build/origincar_bringup -- -j4 -l4
+[3.197s] Invoked command in '/root/dev_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/build/origincar_bringup -- -j4 -l4
+[3.490s] Invoking command in '/root/dev_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --install /root/dev_ws/build/origincar_bringup
+[3.673s] -- Install configuration: ""
+[3.675s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch
+[3.686s] -- Installing: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/line_follower_node.py
+[3.696s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/camera.launch.py
+[3.697s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch_back.py
+[3.708s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+[3.718s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+[3.721s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+[3.722s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+[3.725s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+[3.726s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+[3.728s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+[3.736s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+[3.741s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+[3.743s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+[3.744s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+[3.745s] -- Installing: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/package.dsv
+[3.746s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+[3.747s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+[3.749s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+[3.755s] -- Up-to-date: /root/dev_ws/install/origincar_bringup/share/origincar_bringup/package.xml
+[3.770s] Invoked command in '/root/dev_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --install /root/dev_ws/build/origincar_bringup

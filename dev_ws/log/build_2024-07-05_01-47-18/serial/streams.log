@@ -1,0 +1,33 @@
+[1.663s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/src/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/build/serial -- -j4 -l4
+[2.025s] [100%] Built target serial
+[2.267s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/src/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/build/serial -- -j4 -l4
+[3.907s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/src/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/build/serial
+[3.961s] -- Install configuration: ""
+[3.963s] -- Up-to-date: /root/dev_ws/install/serial/lib/libserial.a
+[3.968s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.sh
+[3.969s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[3.976s] -- Up-to-date: /root/dev_ws/install/serial/include/serial
+[3.977s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/v8stdint.h
+[3.978s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/serial.h
+[3.983s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl
+[3.984s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/win.h
+[3.985s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/unix.h
+[3.986s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.987s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.989s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.990s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.991s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.sh
+[3.992s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.dsv
+[3.994s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.bash
+[3.995s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.sh
+[3.997s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.zsh
+[3.998s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.dsv
+[3.999s] -- Installing: /root/dev_ws/install/serial/share/serial/package.dsv
+[4.000s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[4.001s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.002s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.013s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.017s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[4.018s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.021s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/package.xml
+[6.969s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/src/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/build/serial

@@ -1,0 +1,57 @@
+IN-USE  BSSID              SSID          MODE   CHAN  RATE        SIGNAL  BARS  SECURITY    
+[32m [0m       [32m50:4F:3B:A5:A8:23[0m  [32mmi[0m            [32mInfra[0m  [32m36[0m    [32m270 Mbit/s[0m  [32m92[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32m4E:C6:4C:C1:9D:1D[0m  [32m--[0m            [32mInfra[0m  [32m36[0m    [32m540 Mbit/s[0m  [32m89[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32m4C:C6:4C:B1:9D:1E[0m  [32mX[0m             [32mInfra[0m  [32m36[0m    [32m540 Mbit/s[0m  [32m82[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[33m [0m       [33m50:4F:3B:A5:A8:22[0m  [33mmi[0m            [33mInfra[0m  [33m6[0m     [33m130 Mbit/s[0m  [33m74[0m      [33m▂▄▆_[0m  [33mWPA2[0m        
+[35m [0m       [35m42:06:A7:4D:5F:90[0m  [35m--[0m            [35mInfra[0m  [35m36[0m    [35m540 Mbit/s[0m  [35m55[0m      [35m▂▄__[0m  [35mWPA1 WPA2[0m   
+[35m [0m       [35m3C:06:A7:4D:5F:90[0m  [35mTP-LINK_5F8E[0m  [35mInfra[0m  [35m36[0m    [35m540 Mbit/s[0m  [35m54[0m      [35m▂▄__[0m  [35mWPA1 WPA2[0m   
+[32m*[0m       [35mEC:DA:59:0D:93:23[0m  [35mCAU[0m           [35mInfra[0m  [35m165[0m   [35m130 Mbit/s[0m  [35m48[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35m4C:C6:4C:B1:9D:1D[0m  [35mX_2.4G[0m        [35mInfra[0m  [35m5[0m     [35m540 Mbit/s[0m  [35m47[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35m70:3D:15:95:48:E2[0m  [35meduroam[0m       [35mInfra[0m  [35m44[0m    [35m130 Mbit/s[0m  [35m45[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35m70:3D:15:95:48:E3[0m  [35mCAU[0m           [35mInfra[0m  [35m44[0m    [35m130 Mbit/s[0m  [35m45[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35m70:3D:15:95:48:E0[0m  [35mCAU-guest[0m     [35mInfra[0m  [35m44[0m    [35m130 Mbit/s[0m  [35m45[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35m70:3D:15:95:4B:80[0m  [35mCAU-guest[0m     [35mInfra[0m  [35m48[0m    [35m130 Mbit/s[0m  [35m44[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35mEC:DA:59:0D:93:22[0m  [35meduroam[0m       [35mInfra[0m  [35m165[0m   [35m130 Mbit/s[0m  [35m44[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35m70:3D:15:95:4B:82[0m  [35meduroam[0m       [35mInfra[0m  [35m48[0m    [35m130 Mbit/s[0m  [35m42[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35m70:3D:15:95:4B:83[0m  [35mCAU[0m           [35mInfra[0m  [35m48[0m    [35m130 Mbit/s[0m  [35m42[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35mEC:DA:59:0C:E5:22[0m  [35meduroam[0m       [35mInfra[0m  [35m153[0m   [35m130 Mbit/s[0m  [35m42[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35mEC:DA:59:0C:E5:20[0m  [35mCAU-guest[0m     [35mInfra[0m  [35m153[0m   [35m130 Mbit/s[0m  [35m42[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35mEC:DA:59:0C:E5:23[0m  [35mCAU[0m           [35mInfra[0m  [35m153[0m   [35m130 Mbit/s[0m  [35m42[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35mEC:DA:59:0D:93:20[0m  [35mCAU-guest[0m     [35mInfra[0m  [35m165[0m   [35m130 Mbit/s[0m  [35m42[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35m48:7D:2E:43:42:AC[0m  [35mCIEE_Jia01[0m    [35mInfra[0m  [35m149[0m   [35m540 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA1 WPA2[0m   
+[35m [0m       [35m3C:06:A7:4D:5F:8E[0m  [35mTP-LINK_5F8E[0m  [35mInfra[0m  [35m11[0m    [35m270 Mbit/s[0m  [35m37[0m      [35m▂▄__[0m  [35mWPA1 WPA2[0m   
+[35m [0m       [35mEC:DA:59:0D:92:E0[0m  [35mCAU-guest[0m     [35mInfra[0m  [35m149[0m   [35m130 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35mEC:DA:59:0D:92:E3[0m  [35mCAU[0m           [35mInfra[0m  [35m149[0m   [35m130 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35m--[0m          
+[35m [0m       [35mEC:DA:59:0D:0F:C3[0m  [35mCAU[0m           [35mInfra[0m  [35m64[0m    [35m130 Mbit/s[0m  [35m32[0m      [35m▂▄__[0m  [35m--[0m          
+[36m [0m       [36m60:0B:03:CF:86:32[0m  [36meduroam[0m       [36mInfra[0m  [36m1[0m     [36m260 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0D:73:E2[0m  [36meduroam[0m       [36mInfra[0m  [36m36[0m    [36m130 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0D:92:E2[0m  [36meduroam[0m       [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0C:D6:E2[0m  [36meduroam[0m       [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0C:D6:E0[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0D:73:E0[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m36[0m    [36m130 Mbit/s[0m  [36m29[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0D:73:E3[0m  [36mCAU[0m           [36mInfra[0m  [36m36[0m    [36m130 Mbit/s[0m  [36m29[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36m48:7D:2E:43:42:AA[0m  [36mCIEE_Jia01[0m    [36mInfra[0m  [36m1[0m     [36m270 Mbit/s[0m  [36m27[0m      [36m▂___[0m  [36mWPA1 WPA2[0m   
+[36m [0m       [36mEC:DA:59:0C:E5:30[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m6[0m     [36m130 Mbit/s[0m  [36m27[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0C:D6:E3[0m  [36mCAU[0m           [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m27[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0C:F1:A2[0m  [36meduroam[0m       [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m27[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0C:F1:A0[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m27[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0C:E5:32[0m  [36meduroam[0m       [36mInfra[0m  [36m6[0m     [36m130 Mbit/s[0m  [36m25[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0D:0F:C0[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m64[0m    [36m130 Mbit/s[0m  [36m25[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0C:F1:A3[0m  [36mCAU[0m           [36mInfra[0m  [36m149[0m   [36m130 Mbit/s[0m  [36m25[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0D:92:40[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m161[0m   [36m130 Mbit/s[0m  [36m25[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0C:E5:33[0m  [36mCAU[0m           [36mInfra[0m  [36m6[0m     [36m130 Mbit/s[0m  [36m24[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0D:92:42[0m  [36meduroam[0m       [36mInfra[0m  [36m161[0m   [36m130 Mbit/s[0m  [36m24[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0D:92:43[0m  [36mCAU[0m           [36mInfra[0m  [36m161[0m   [36m130 Mbit/s[0m  [36m24[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0D:93:30[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m11[0m    [36m130 Mbit/s[0m  [36m22[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36mEC:DA:59:0D:93:32[0m  [36meduroam[0m       [36mInfra[0m  [36m11[0m    [36m130 Mbit/s[0m  [36m20[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0C:F1:B2[0m  [36meduroam[0m       [36mInfra[0m  [36m1[0m     [36m130 Mbit/s[0m  [36m17[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mEC:DA:59:0D:93:33[0m  [36mCAU[0m           [36mInfra[0m  [36m11[0m    [36m130 Mbit/s[0m  [36m17[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36m70:3D:15:95:48:F0[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m11[0m    [36m130 Mbit/s[0m  [36m17[0m      [36m▂___[0m  [36m--[0m          
+[36m [0m       [36m60:0B:03:CF:86:30[0m  [36mCAU-guest[0m     [36mInfra[0m  [36m1[0m     [36m260 Mbit/s[0m  [36m14[0m      [36m▂___[0m  [36m--[0m          
+[2m [0m       [2mEC:DA:59:0C:F1:B0[0m  [2mCAU-guest[0m     [2mInfra[0m  [2m1[0m     [2m130 Mbit/s[0m  [2m0[0m       [2m____[0m  [2m--[0m          
+[2m [0m       [2mEC:DA:59:0C:F1:B3[0m  [2mCAU[0m           [2mInfra[0m  [2m1[0m     [2m130 Mbit/s[0m  [2m0[0m       [2m____[0m  [2m--[0m          
+[2m [0m       [2mEC:DA:59:0C:D6:F2[0m  [2meduroam[0m       [2mInfra[0m  [2m1[0m     [2m130 Mbit/s[0m  [2m0[0m       [2m____[0m  [2mWPA2 802.1X[0m 
+[2m [0m       [2mEC:DA:59:0C:D6:F0[0m  [2mCAU-guest[0m     [2mInfra[0m  [2m1[0m     [2m130 Mbit/s[0m  [2m0[0m       [2m____[0m  [2m--[0m          
+[2m [0m       [2m46:06:A7:4D:5F:8E[0m  [2m--[0m            [2mInfra[0m  [2m11[0m    [2m270 Mbit/s[0m  [2m0[0m       [2m____[0m  [2mWPA1 WPA2[0m   
+[2m [0m       [2m70:3D:15:95:48:F3[0m  [2mCAU[0m           [2mInfra[0m  [2m11[0m    [2m130 Mbit/s[0m  [2m0[0m       [2m____[0m  [2m--[0m          
+[2m [0m       [2mCC:08:FB:EB:F1:BE[0m  [2mTP-LINK_B3[0m    [2mInfra[0m  [2m13[0m    [2m270 Mbit/s[0m  [2m0[0m       [2m____[0m  [2mWPA1 WPA2[0m   

@@ -1,0 +1,2 @@
+source;share/racing_track_detection_resnet/environment/ament_prefix_path.sh
+source;share/racing_track_detection_resnet/environment/path.sh

@@ -1,0 +1,7 @@
+IN-USE  BSSID              SSID  MODE   CHAN  RATE        SIGNAL  BARS  SECURITY  
+[32m [0m       [32m2A:07:05:1E:4F:5F[0m  [32m--[0m    [32mInfra[0m  [32m149[0m   [32m270 Mbit/s[0m  [32m97[0m      [32m▂▄▆█[0m  [32mWPA2 WPA3[0m 
+[32m*[0m       [33mEC:DA:59:13:CD:A1[0m  [33mCAU[0m   [33mInfra[0m  [33m48[0m    [33m130 Mbit/s[0m  [33m79[0m      [33m▂▄▆_[0m  [33m--[0m        
+[35m [0m       [35mEC:DA:59:14:7C:A1[0m  [35mCAU[0m   [35mInfra[0m  [35m44[0m    [35m130 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35m--[0m        
+[35m [0m       [35mEC:DA:59:14:72:21[0m  [35mCAU[0m   [35mInfra[0m  [35m157[0m   [35m130 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35m--[0m        
+[36m [0m       [36mEC:DA:59:13:CD:B1[0m  [36mCAU[0m   [36mInfra[0m  [36m6[0m     [36m130 Mbit/s[0m  [36m24[0m      [36m▂___[0m  [36m--[0m        
+[2m [0m       [2mEC:DA:59:14:7C:B1[0m  [2mCAU[0m   [2mInfra[0m  [2m11[0m    [2m130 Mbit/s[0m  [2m0[0m       [2m____[0m  [2m--[0m        

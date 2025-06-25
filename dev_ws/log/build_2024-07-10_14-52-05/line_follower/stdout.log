@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/pythonpath.sh
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/pythonpath.dsv
+-- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+-- Installing: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/line_follower_node.py
+-- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/__init__.py
+Listing '/root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower'...
+Compiling '/root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/line_follower_node.py'...
+-- Installing: /root/dev_ws/install/line_follower/lib/line_follower/line_follower_node.py
+-- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/package_run_dependencies/line_follower
+-- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/parent_prefix_path/line_follower
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/ament_prefix_path.sh
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/path.sh
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/path.dsv
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.bash
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.sh
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.zsh
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.dsv
+-- Installing: /root/dev_ws/install/line_follower/share/line_follower/package.dsv
+-- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/packages/line_follower
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/cmake/line_followerConfig.cmake
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/cmake/line_followerConfig-version.cmake
+-- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/package.xml

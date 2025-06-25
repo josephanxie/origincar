@@ -1,0 +1,3 @@
+source;share/line_follower_model/hook/pythonpath.ps1
+source;share/line_follower_model/hook/pythonpath.dsv
+source;share/line_follower_model/hook/pythonpath.sh

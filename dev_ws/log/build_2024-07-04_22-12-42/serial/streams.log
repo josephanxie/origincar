@@ -1,0 +1,76 @@
+[1.679s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/line:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/serial
+[2.093s] -- The C compiler identification is GNU 9.3.0
+[2.544s] -- The CXX compiler identification is GNU 9.3.0
+[2.580s] -- Check for working C compiler: /usr/bin/cc
+[3.060s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.067s] -- Detecting C compiler ABI info
+[3.578s] -- Detecting C compiler ABI info - done
+[3.672s] -- Detecting C compile features
+[3.675s] -- Detecting C compile features - done
+[3.696s] -- Check for working CXX compiler: /usr/bin/c++
+[4.333s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.343s] -- Detecting CXX compiler ABI info
+[4.925s] -- Detecting CXX compiler ABI info - done
+[5.038s] -- Detecting CXX compile features
+[5.042s] -- Detecting CXX compile features - done
+[5.056s] -- Found rosidl_default_generators: 1.0.1 (/opt/tros/share/rosidl_default_generators/cmake)
+[5.065s] -- Found ament_cmake_core: 0.9.12 (/opt/tros/share/ament_cmake_core/cmake)
+[5.268s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.131s] -- Found rosidl_adapter: 1.3.1 (/opt/tros/share/rosidl_adapter/cmake)
+[7.475s] -- Found FastRTPS: /opt/tros/include  
+[8.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.173s] -- Configuring done
+[9.202s] -- Generating done
+[9.210s] -- Build files have been written to: /root/dev_ws/build/serial
+[10.186s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/line:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/serial
+[10.203s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/line:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/build/serial -- -j4 -l4
+[10.510s] [35m[1mScanning dependencies of target serial[0m
+[10.627s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[10.649s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[10.670s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[14.322s] [01m[K/root/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[14.323s] [01m[K/root/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[14.325s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[14.326s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.329s] [01m[K/root/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[14.331s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[14.352s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[14.408s] [01m[K/root/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[14.411s] [01m[K/root/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[14.414s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[14.415s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[17.000s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[17.468s] [100%] Built target serial
+[17.622s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/line:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/build/serial -- -j4 -l4
+[18.105s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/line:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/build/serial
+[18.222s] -- Install configuration: ""
+[18.224s] -- Installing: /root/dev_ws/install/serial/lib/libserial.a
+[18.231s] -- Installing: /root/dev_ws/install/serial/share/serial/environment/library_path.sh
+[18.232s] -- Installing: /root/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[18.234s] -- Installing: /root/dev_ws/install/serial/include/serial
+[18.238s] -- Installing: /root/dev_ws/install/serial/include/serial/v8stdint.h
+[18.240s] -- Installing: /root/dev_ws/install/serial/include/serial/serial.h
+[18.246s] -- Installing: /root/dev_ws/install/serial/include/serial/impl
+[18.248s] -- Installing: /root/dev_ws/install/serial/include/serial/impl/win.h
+[18.251s] -- Installing: /root/dev_ws/install/serial/include/serial/impl/unix.h
+[18.254s] -- Installing: /root/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[18.264s] -- Installing: /root/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[18.267s] -- Installing: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[18.269s] -- Installing: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[18.272s] -- Installing: /root/dev_ws/install/serial/share/serial/environment/path.sh
+[18.275s] -- Installing: /root/dev_ws/install/serial/share/serial/environment/path.dsv
+[18.278s] -- Installing: /root/dev_ws/install/serial/share/serial/local_setup.bash
+[18.282s] -- Installing: /root/dev_ws/install/serial/share/serial/local_setup.sh
+[18.286s] -- Installing: /root/dev_ws/install/serial/share/serial/local_setup.zsh
+[18.290s] -- Installing: /root/dev_ws/install/serial/share/serial/local_setup.dsv
+[18.294s] -- Installing: /root/dev_ws/install/serial/share/serial/package.dsv
+[18.298s] -- Installing: /root/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[18.311s] -- Installing: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.313s] -- Installing: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[18.316s] -- Installing: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.319s] -- Installing: /root/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[18.321s] -- Installing: /root/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[18.324s] -- Installing: /root/dev_ws/install/serial/share/serial/package.xml
+[18.340s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/line_follower:/root/dev_ws/install/line:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/build/serial

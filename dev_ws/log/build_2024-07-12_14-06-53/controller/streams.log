@@ -1,0 +1,21 @@
+[8.631s] Invoking command in '/root/dev_ws/src/controller': PYTHONPATH=/root/dev_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /root/dev_ws/build/controller/build install --record /root/dev_ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed install_data
+[10.972s] running egg_info
+[10.978s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[10.981s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[10.984s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[10.988s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[10.989s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[11.340s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[11.350s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[11.351s] running build
+[11.369s] running build_py
+[11.373s] running install
+[11.380s] running install_lib
+[11.395s] running install_data
+[11.398s] running install_egg_info
+[11.417s] removing '/root/dev_ws/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info' (and everything under it)
+[11.424s] Copying ../../build/controller/controller.egg-info to /root/dev_ws/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info
+[11.434s] running install_scripts
+[11.596s] Installing controller script to /root/dev_ws/install/controller/lib/controller
+[11.600s] writing list of installed files to '/root/dev_ws/build/controller/install.log'
+[12.333s] Invoked command in '/root/dev_ws/src/controller' returned '0': PYTHONPATH=/root/dev_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /root/dev_ws/build/controller/build install --record /root/dev_ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed install_data

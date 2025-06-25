@@ -1,0 +1,31 @@
+running egg_info
+creating build/testtest/testtest.egg-info
+writing build/testtest/testtest.egg-info/PKG-INFO
+writing dependency_links to build/testtest/testtest.egg-info/dependency_links.txt
+writing entry points to build/testtest/testtest.egg-info/entry_points.txt
+writing requirements to build/testtest/testtest.egg-info/requires.txt
+writing top-level names to build/testtest/testtest.egg-info/top_level.txt
+writing manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+reading manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+writing manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/testtest/build/testtest/build
+creating /root/testtest/build/testtest/build/lib
+creating /root/testtest/build/testtest/build/lib/testtest
+copying testtest/__init__.py -> /root/testtest/build/testtest/build/lib/testtest
+running install
+running install_lib
+creating /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+copying /root/testtest/build/testtest/build/lib/testtest/__init__.py -> /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+byte-compiling /root/testtest/install/testtest/lib/python3.8/site-packages/testtest/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/testtest/install/testtest/share/ament_index
+creating /root/testtest/install/testtest/share/ament_index/resource_index
+creating /root/testtest/install/testtest/share/ament_index/resource_index/packages
+copying resource/testtest -> /root/testtest/install/testtest/share/ament_index/resource_index/packages
+copying package.xml -> /root/testtest/install/testtest/share/testtest
+running install_egg_info
+Copying build/testtest/testtest.egg-info to /root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/root/testtest/build/testtest/install.log'

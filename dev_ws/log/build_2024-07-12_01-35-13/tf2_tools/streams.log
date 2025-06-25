@@ -1,0 +1,21 @@
+[7.110s] Invoking command in '/root/dev_ws/src/origincar/3rdparty/tf2_tools': PYTHONPATH=/root/dev_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev_ws/build/tf2_tools/build install --record /root/dev_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[8.760s] running egg_info
+[8.764s] writing ../../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+[8.766s] writing dependency_links to ../../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+[8.768s] writing entry points to ../../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+[8.769s] writing requirements to ../../../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+[8.770s] writing top-level names to ../../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+[9.057s] reading manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[9.064s] writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[9.065s] running build
+[9.066s] running build_py
+[9.068s] running install
+[9.074s] running install_lib
+[9.084s] running install_data
+[9.086s] running install_egg_info
+[9.097s] removing '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info' (and everything under it)
+[9.099s] Copying ../../../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info
+[9.104s] running install_scripts
+[9.225s] Installing view_frames script to /root/dev_ws/install/tf2_tools/lib/tf2_tools
+[9.227s] writing list of installed files to '/root/dev_ws/build/tf2_tools/install.log'
+[9.396s] Invoked command in '/root/dev_ws/src/origincar/3rdparty/tf2_tools' returned '0': PYTHONPATH=/root/dev_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev_ws/build/tf2_tools/build install --record /root/dev_ws/build/tf2_tools/install.log --single-version-externally-managed install_data

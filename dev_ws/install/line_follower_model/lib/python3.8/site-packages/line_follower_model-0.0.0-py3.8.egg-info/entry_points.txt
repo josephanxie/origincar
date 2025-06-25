@@ -1,0 +1,3 @@
+[console_scripts]
+annotation = line_follower_model.annotation:main
+

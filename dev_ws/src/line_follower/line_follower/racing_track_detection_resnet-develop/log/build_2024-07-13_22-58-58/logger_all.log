@@ -1,0 +1,84 @@
+[2.311s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.312s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e27d6d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e27d6d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e27df40>)
+[3.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.858s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.088s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'racing_track_detection_resnet'
+[4.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /root/dev_ws/install
+[4.406s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/tros
+[4.439s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 182 installed packages in /opt/ros/foxy
+[4.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.438s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'cmake_args' from command line to 'None'
+[5.439s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'cmake_target' from command line to 'None'
+[5.439s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.439s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'cmake_clean_cache' from command line to 'False'
+[5.439s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'cmake_clean_first' from command line to 'False'
+[5.439s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'cmake_force_configure' from command line to 'False'
+[5.440s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'ament_cmake_args' from command line to 'None'
+[5.440s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'catkin_cmake_args' from command line to 'None'
+[5.440s] Level 5:colcon.colcon_core.verb:set package 'racing_track_detection_resnet' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.440s] DEBUG:colcon.colcon_core.verb:Building package 'racing_track_detection_resnet' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet', 'merge_install': False, 'path': '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop', 'symlink_install': False, 'test_result_base': None}
+[5.442s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop' with build type 'ament_cmake'
+[5.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop'
+[5.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/linefollower:/root/dev_ws/install/controller:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake /root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop -DCMAKE_INSTALL_PREFIX=/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet
+[21.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/linefollower:/root/dev_ws/install/controller:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake /root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop -DCMAKE_INSTALL_PREFIX=/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet
+[21.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/linefollower:/root/dev_ws/install/controller:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet -- -j4 -l4
+[91.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet' returned '2': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/root/dev_ws/install/linefollower:/root/dev_ws/install/controller:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/build/racing_track_detection_resnet -- -j4 -l4
+[91.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racing_track_detection_resnet)
+[91.329s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet' for CMake module files
+[91.332s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet' for CMake config files
+[91.335s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/bin'
+[91.335s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/lib/pkgconfig/racing_track_detection_resnet.pc'
+[91.337s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/lib/python3.8/site-packages'
+[91.339s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/bin'
+[91.342s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/share/racing_track_detection_resnet/package.ps1'
+[91.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/share/racing_track_detection_resnet/package.dsv'
+[91.359s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/share/racing_track_detection_resnet/package.sh'
+[91.368s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/share/racing_track_detection_resnet/package.bash'
+[91.378s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/share/racing_track_detection_resnet/package.zsh'
+[91.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/racing_track_detection_resnet/share/colcon-core/packages/racing_track_detection_resnet)
+[91.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[91.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[91.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[91.405s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.476s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[91.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.478s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.479s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.506s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[91.507s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/local_setup.ps1'
+[91.518s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/_local_setup_util_ps1.py'
+[91.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/setup.ps1'
+[91.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/local_setup.sh'
+[91.552s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/_local_setup_util_sh.py'
+[91.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/setup.sh'
+[91.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/local_setup.bash'
+[91.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/setup.bash'
+[91.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/local_setup.zsh'
+[91.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/src/line_follower/line_follower/racing_track_detection_resnet-develop/install/setup.zsh'

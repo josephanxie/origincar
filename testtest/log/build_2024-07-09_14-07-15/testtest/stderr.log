@@ -1,0 +1,5 @@
+  File "/root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_sub.py", line 29
+    global i
+    ^
+SyntaxError: name 'i' is used prior to global declaration
+

@@ -1,0 +1,6 @@
+source;share/linefollower/hook/pythonpath.ps1
+source;share/linefollower/hook/pythonpath.dsv
+source;share/linefollower/hook/pythonpath.sh
+source;share/linefollower/hook/ament_prefix_path.ps1
+source;share/linefollower/hook/ament_prefix_path.dsv
+source;share/linefollower/hook/ament_prefix_path.sh

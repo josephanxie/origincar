@@ -1,0 +1,22 @@
+running egg_info
+writing build/testtest/testtest.egg-info/PKG-INFO
+writing dependency_links to build/testtest/testtest.egg-info/dependency_links.txt
+writing entry points to build/testtest/testtest.egg-info/entry_points.txt
+writing requirements to build/testtest/testtest.egg-info/requires.txt
+writing top-level names to build/testtest/testtest.egg-info/top_level.txt
+reading manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+writing manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+running build
+running build_py
+copying testtest/helloworld.py -> /root/testtest/build/testtest/build/lib/testtest
+running install
+running install_lib
+copying /root/testtest/build/testtest/build/lib/testtest/helloworld.py -> /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+byte-compiling /root/testtest/install/testtest/lib/python3.8/site-packages/testtest/helloworld.py to helloworld.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info' (and everything under it)
+Copying build/testtest/testtest.egg-info to /root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info
+running install_scripts
+Installing helloworld123 script to /root/testtest/install/testtest/lib/testtest
+writing list of installed files to '/root/testtest/build/testtest/install.log'

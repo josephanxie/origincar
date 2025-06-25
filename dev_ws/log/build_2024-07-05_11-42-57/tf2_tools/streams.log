@@ -1,0 +1,21 @@
+[14.430s] Invoking command in '/root/dev_ws/src/origincar/3rdparty/tf2_tools': PYTHONPATH=/root/dev_ws/build/tf2_tools/prefix_override:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev_ws/build/tf2_tools/build install --record /root/dev_ws/build/tf2_tools/install.log --single-version-externally-managed
+[16.763s] running egg_info
+[16.768s] writing ../../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+[16.771s] writing dependency_links to ../../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+[16.772s] writing entry points to ../../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+[16.775s] writing requirements to ../../../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+[16.776s] writing top-level names to ../../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+[17.173s] reading manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[17.181s] writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[17.182s] running build
+[17.183s] running build_py
+[17.190s] running install
+[17.193s] running install_lib
+[17.206s] running install_data
+[17.210s] running install_egg_info
+[17.227s] removing '/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info' (and everything under it)
+[17.229s] Copying ../../../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info
+[17.238s] running install_scripts
+[17.402s] Installing view_frames script to /root/dev_ws/install/tf2_tools/lib/tf2_tools
+[17.412s] writing list of installed files to '/root/dev_ws/build/tf2_tools/install.log'
+[19.328s] Invoked command in '/root/dev_ws/src/origincar/3rdparty/tf2_tools' returned '0': PYTHONPATH=/root/dev_ws/build/tf2_tools/prefix_override:/root/dev_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev_ws/build/tf2_tools/build install --record /root/dev_ws/build/tf2_tools/install.log --single-version-externally-managed

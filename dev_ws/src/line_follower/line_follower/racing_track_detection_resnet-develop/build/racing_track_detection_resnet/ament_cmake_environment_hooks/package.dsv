@@ -1,0 +1,4 @@
+source;share/racing_track_detection_resnet/local_setup.bash
+source;share/racing_track_detection_resnet/local_setup.dsv
+source;share/racing_track_detection_resnet/local_setup.sh
+source;share/racing_track_detection_resnet/local_setup.zsh

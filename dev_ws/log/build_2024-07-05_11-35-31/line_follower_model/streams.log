@@ -1,0 +1,21 @@
+[12.642s] Invoking command in '/root/dev_ws/src/line_follower_model': PYTHONPATH=/root/dev_ws/build/line_follower_model/prefix_override:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_follower_model build --build-base /root/dev_ws/build/line_follower_model/build install --record /root/dev_ws/build/line_follower_model/install.log --install-scripts $base/lib/line_follower_model --single-version-externally-managed
+[16.743s] running egg_info
+[16.746s] writing ../../build/line_follower_model/line_follower_model.egg-info/PKG-INFO
+[16.750s] writing dependency_links to ../../build/line_follower_model/line_follower_model.egg-info/dependency_links.txt
+[16.753s] writing entry points to ../../build/line_follower_model/line_follower_model.egg-info/entry_points.txt
+[16.755s] writing requirements to ../../build/line_follower_model/line_follower_model.egg-info/requires.txt
+[16.756s] writing top-level names to ../../build/line_follower_model/line_follower_model.egg-info/top_level.txt
+[16.757s] reading manifest file '../../build/line_follower_model/line_follower_model.egg-info/SOURCES.txt'
+[16.758s] writing manifest file '../../build/line_follower_model/line_follower_model.egg-info/SOURCES.txt'
+[16.760s] running build
+[16.763s] running build_py
+[16.764s] running install
+[16.765s] running install_lib
+[16.766s] running install_data
+[16.768s] running install_egg_info
+[16.769s] removing '/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages/line_follower_model-0.0.0-py3.8.egg-info' (and everything under it)
+[16.770s] Copying ../../build/line_follower_model/line_follower_model.egg-info to /root/dev_ws/install/line_follower_model/lib/python3.8/site-packages/line_follower_model-0.0.0-py3.8.egg-info
+[16.771s] running install_scripts
+[16.772s] Installing ImageSubscriber script to /root/dev_ws/install/line_follower_model/lib/line_follower_model
+[16.773s] writing list of installed files to '/root/dev_ws/build/line_follower_model/install.log'
+[16.775s] Invoked command in '/root/dev_ws/src/line_follower_model' returned '0': PYTHONPATH=/root/dev_ws/build/line_follower_model/prefix_override:/root/dev_ws/install/line_follower_model/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_follower_model build --build-base /root/dev_ws/build/line_follower_model/build install --record /root/dev_ws/build/line_follower_model/install.log --install-scripts $base/lib/line_follower_model --single-version-externally-managed

@@ -1,0 +1,39 @@
+[8.622s] Invoking command in '/root/testtest': PYTHONPATH=/root/testtest/build/testtest/prefix_override:/root/testtest/install/testtest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/testtest build --build-base /root/testtest/build/testtest/build install --record /root/testtest/build/testtest/install.log --install-scripts $base/lib/testtest --single-version-externally-managed
+[10.124s] running egg_info
+[10.128s] writing build/testtest/testtest.egg-info/PKG-INFO
+[10.129s] writing dependency_links to build/testtest/testtest.egg-info/dependency_links.txt
+[10.130s] writing entry points to build/testtest/testtest.egg-info/entry_points.txt
+[10.132s] writing requirements to build/testtest/testtest.egg-info/requires.txt
+[10.133s] writing top-level names to build/testtest/testtest.egg-info/top_level.txt
+[10.421s] reading manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+[10.427s] writing manifest file 'build/testtest/testtest.egg-info/SOURCES.txt'
+[10.428s] running build
+[10.429s] running build_py
+[10.430s] copying testtest/test_pub.py -> /root/testtest/build/testtest/build/lib/testtest
+[10.431s] copying testtest/test_sub.py -> /root/testtest/build/testtest/build/lib/testtest
+[10.432s] running install
+[10.437s] running install_lib
+[10.443s] copying /root/testtest/build/testtest/build/lib/testtest/test_pub.py -> /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+[10.444s] copying /root/testtest/build/testtest/build/lib/testtest/test_sub.py -> /root/testtest/install/testtest/lib/python3.8/site-packages/testtest
+[10.448s] byte-compiling /root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_pub.py to test_pub.cpython-38.pyc
+[10.457s]   File "/root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_pub.py", line 4
+[10.458s]     """
+[10.459s]     ^
+[10.460s] SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xd7 in position 2: invalid continuation byte
+[10.461s] 
+[10.461s] byte-compiling /root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_sub.py to test_sub.cpython-38.pyc
+[10.462s]   File "/root/testtest/install/testtest/lib/python3.8/site-packages/testtest/test_sub.py", line 4
+[10.463s]     """
+[10.464s]     ^
+[10.465s] SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xd7 in position 2: invalid continuation byte
+[10.465s] 
+[10.466s] running install_data
+[10.467s] running install_egg_info
+[10.473s] removing '/root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info' (and everything under it)
+[10.475s] Copying build/testtest/testtest.egg-info to /root/testtest/install/testtest/lib/python3.8/site-packages/testtest-0.0.0-py3.8.egg-info
+[10.480s] running install_scripts
+[10.599s] Installing helloworld123 script to /root/testtest/install/testtest/lib/testtest
+[10.600s] Installing pubtest script to /root/testtest/install/testtest/lib/testtest
+[10.601s] Installing subtest script to /root/testtest/install/testtest/lib/testtest
+[10.603s] writing list of installed files to '/root/testtest/build/testtest/install.log'
+[10.771s] Invoked command in '/root/testtest' returned '0': PYTHONPATH=/root/testtest/build/testtest/prefix_override:/root/testtest/install/testtest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/testtest build --build-base /root/testtest/build/testtest/build install --record /root/testtest/build/testtest/install.log --install-scripts $base/lib/testtest --single-version-externally-managed

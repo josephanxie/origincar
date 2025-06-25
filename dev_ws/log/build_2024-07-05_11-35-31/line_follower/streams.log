@@ -1,0 +1,27 @@
+[9.060s] Invoking command in '/root/dev_ws/build/line_follower': /usr/bin/cmake --build /root/dev_ws/build/line_follower -- -j4 -l4
+[19.842s] Invoked command in '/root/dev_ws/build/line_follower' returned '0': /usr/bin/cmake --build /root/dev_ws/build/line_follower -- -j4 -l4
+[27.044s] Invoking command in '/root/dev_ws/build/line_follower': /usr/bin/cmake --install /root/dev_ws/build/line_follower
+[27.150s] -- Install configuration: ""
+[27.153s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/pythonpath.sh
+[27.155s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/pythonpath.dsv
+[27.157s] -- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+[27.162s] -- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/line_follower_node.py
+[27.166s] -- Up-to-date: /root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower/__init__.py
+[27.466s] Listing '/root/dev_ws/install/line_follower/lib/python3.8/site-packages/line_follower'...
+[27.524s] -- Up-to-date: /root/dev_ws/install/line_follower/lib/line_follower/line_follower_node.py
+[27.535s] -- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/package_run_dependencies/line_follower
+[27.538s] -- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/parent_prefix_path/line_follower
+[27.539s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/ament_prefix_path.sh
+[27.541s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/ament_prefix_path.dsv
+[27.552s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/path.sh
+[27.554s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/environment/path.dsv
+[27.556s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.bash
+[27.569s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.sh
+[27.570s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.zsh
+[27.572s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/local_setup.dsv
+[27.573s] -- Installing: /root/dev_ws/install/line_follower/share/line_follower/package.dsv
+[27.575s] -- Up-to-date: /root/dev_ws/install/line_follower/share/ament_index/resource_index/packages/line_follower
+[27.576s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/cmake/line_followerConfig.cmake
+[27.576s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/cmake/line_followerConfig-version.cmake
+[27.577s] -- Up-to-date: /root/dev_ws/install/line_follower/share/line_follower/package.xml
+[29.048s] Invoked command in '/root/dev_ws/build/line_follower' returned '0': /usr/bin/cmake --install /root/dev_ws/build/line_follower

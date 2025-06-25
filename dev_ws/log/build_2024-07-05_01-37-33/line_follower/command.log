@@ -1,0 +1,2 @@
+Invoking command in '/root/dev_ws/build/line_follower': /usr/bin/cmake /root/dev_ws/src/line_follower -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/line_follower
+Invoked command in '/root/dev_ws/build/line_follower' returned '1': /usr/bin/cmake /root/dev_ws/src/line_follower -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/line_follower

@@ -1,0 +1,33 @@
+[1.942s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/build/serial -- -j4 -l4
+[2.525s] [100%] Built target serial
+[2.620s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --build /root/dev_ws/build/serial -- -j4 -l4
+[4.388s] Invoking command in '/root/dev_ws/build/serial': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --install /root/dev_ws/build/serial
+[4.461s] -- Install configuration: ""
+[4.464s] -- Up-to-date: /root/dev_ws/install/serial/lib/libserial.a
+[4.467s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.sh
+[4.470s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[4.472s] -- Up-to-date: /root/dev_ws/install/serial/include/serial
+[4.474s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/v8stdint.h
+[4.479s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/serial.h
+[4.481s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl
+[4.483s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/win.h
+[4.485s] -- Up-to-date: /root/dev_ws/install/serial/include/serial/impl/unix.h
+[4.489s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.490s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.494s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.495s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.496s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.sh
+[4.497s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/environment/path.dsv
+[4.502s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.bash
+[4.509s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.sh
+[4.511s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.zsh
+[4.512s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/local_setup.dsv
+[4.513s] -- Installing: /root/dev_ws/install/serial/share/serial/package.dsv
+[4.523s] -- Up-to-date: /root/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[4.524s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.527s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.528s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.529s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[4.530s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.541s] -- Up-to-date: /root/dev_ws/install/serial/share/serial/package.xml
+[4.543s] Invoked command in '/root/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/root/dev_ws/install/origincar_base:/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/origincar_bringup:/root/dev_ws/install/tf2_tools:/opt/ros/foxy:/root/dev_ws/install/line_follower:/root/dev_ws/install/ackermann_msgs:/opt/tros /usr/bin/cmake --install /root/dev_ws/build/serial

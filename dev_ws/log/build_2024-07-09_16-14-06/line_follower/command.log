@@ -1,0 +1,4 @@
+Invoking command in '/root/dev_ws/build/line_follower': /usr/bin/cmake --build /root/dev_ws/build/line_follower -- -j4 -l4
+Invoked command in '/root/dev_ws/build/line_follower' returned '0': /usr/bin/cmake --build /root/dev_ws/build/line_follower -- -j4 -l4
+Invoking command in '/root/dev_ws/build/line_follower': /usr/bin/cmake --install /root/dev_ws/build/line_follower
+Invoked command in '/root/dev_ws/build/line_follower' returned '0': /usr/bin/cmake --install /root/dev_ws/build/line_follower
