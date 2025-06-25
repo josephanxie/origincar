@@ -1,5 +1,0 @@
-  File "/root/testtest/install/testtest/lib/python3.8/site-packages/testtest/helloworld.py", line 4
-    """
-    ^
-SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xd7 in position 2: invalid continuation byte
-

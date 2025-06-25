@@ -1,0 +1,21 @@
+# Ignore colcon build artifacts
+build/
+install/
+log/
+
+# Python artifacts
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Project-specific binary files
+*.onnx
+*.bin
+*.img
+*.nv12
+*.hbm 

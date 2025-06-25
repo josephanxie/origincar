@@ -1,5 +1,0 @@
-[console_scripts]
-helloworld123 = testtest.helloworld:main
-pubtest = testtest.test_pub:main
-subtest = testtest.test_sub:main
-

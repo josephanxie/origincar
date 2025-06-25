@@ -1,4 +1,0 @@
-[console_scripts]
-line_follower_nn = line_follower.line_follower_nn:main
-line_follower_node = line_follower.line_follower_node:main
-
